@@ -1,0 +1,12254 @@
+name: colectii
+init: start
+accept: Y
+
+start, *
+start, *, >
+
+start, :
+start, :, >
+
+start, 1
+start, a, >
+
+start, 2
+start, b, >
+
+start, 3
+start, c, >
+
+start, 4
+start, d, >
+
+start, _
+s1, _, <
+
+s1, a
+s1, a, <
+
+s1, b
+s1, b, <
+
+s1, c
+s1, c, <
+
+s1, d
+s1, d, <
+
+s1, *
+s1, *, <
+
+s1, :
+s1, :, <
+
+s1, _
+q1 , _, >
+
+q1, b
+q1, b, >
+
+q1, c
+q1, c, >
+
+q1, d
+q1, d, >
+
+q1, :
+q1, :, >
+
+q1, *
+q1, *, >
+
+q1, a
+q2, A, <
+
+q2, A
+q2, A, <
+
+q2, b
+q2, b, <
+
+q2, c
+q2, c, <
+
+q2, d
+q2, d, <
+
+q2, :
+q2, :, <
+
+q2, *
+q12, *, >
+
+q12, A
+q12, A, >
+
+q12, c
+q12, c, >
+
+q12, d
+q12, d, >
+
+q12, :
+q12, :, >
+
+q12, b
+q3, B, <
+
+q3, A
+q3, A, <
+
+q3, B
+q3, B, <
+
+q3, c
+q3, c, <
+
+q3, d
+q3, d, <
+
+q3, :
+q3, :, <
+
+q3, *
+q13, *, >
+
+q13, A
+q13, A, >
+
+q13, B
+q13, B, >
+
+q13, d
+q13, d, >
+
+q13, :
+q13, :, >
+
+q13, c
+q4, C, <
+
+q4, A
+q4, A, <
+
+q4, B
+q4, B, <
+
+q4, C
+q4, C, <
+
+q4, d
+q4, d, <
+
+q4, :
+q4, :, <
+
+q4, *
+q14, *, >
+
+q14, A
+q14, A, >
+
+q14, B
+q14, B, >
+
+q14, C
+q14, C, >
+
+q14, :
+q14, :, >
+
+q14, d
+q5, D, <
+
+q5, A
+q5, A, <
+
+q5, B
+q5, B, <
+
+q5, C
+q5, C, <
+
+q5, D
+q5, D, <
+
+q5, :
+q5, :, <
+
+q5, *
+colectie1, *, >
+
+
+// ma duc la urmatoare COLECTIE:
+
+
+colectie1, A
+colectie1, A, >
+
+colectie1, B
+colectie1, B, >
+
+colectie1, C
+colectie1, C, >
+
+colectie1, D
+colectie1, D, >
+
+colectie1, :
+colectie1, :, >
+
+colectie1, *
+verifcolectie2, *, >
+
+////////////////////// colectia 2:
+
+verifcolectie2, b
+verifcolectie2, b, >
+
+verifcolectie2, c
+verifcolectie2, c, >
+
+verifcolectie2, d
+verifcolectie2, d, >
+
+verifcolectie2, :
+verifcolectie2, :, >
+
+verifcolectie2, *
+verifcolectie2, *, >
+
+verifcolectie2, a
+c2, A, <
+
+c2, A
+c2, A, <
+
+c2, b
+c2, b, <
+
+c2, c
+c2, c, <
+
+c2, d
+c2, d, <
+
+c2, :
+c2, :, <
+
+c2, *
+c12, *, >
+
+c12, A
+c12, A, >
+
+c12, c
+c12, c, >
+
+c12, d
+c12, d, >
+
+c12, :
+c12, :, >
+
+c12, b
+c3, B, <
+
+c3, A
+c3, A, <
+
+c3, B
+c3, B, <
+
+c3, c
+c3, c, <
+
+c3, d
+c3, d, <
+
+c3, :
+c3, :, <
+
+c3, *
+c13, *, >
+
+c13, A
+c13, A, >
+
+c13, B
+c13, B, >
+
+c13, d
+c13, d, >
+
+c13, :
+c13, :, >
+
+c13, c
+c4, C, <
+
+c4, A
+c4, A, <
+
+c4, B
+c4, B, <
+
+c4, C
+c4, C, <
+
+c4, d
+c4, d, <
+
+c4, :
+c4, :, <
+
+c4, *
+c14, *, >
+
+c14, A
+c14, A, >
+
+c14, B
+c14, B, >
+
+c14, C
+c14, C, >
+
+c14, :
+c14, :, >
+
+c14, d
+c5, D, <
+
+c5, A
+c5, A, <
+
+c5, B
+c5, B, <
+
+c5, C
+c5, C, <
+
+c5, D
+c5, D, <
+
+c5, :
+c5, :, <
+
+c5, *
+colectie3, *, >
+
+// ma duc la urmatoarea colectie:
+
+colectie3, A
+colectie3, A, >
+
+colectie3, B
+colectie3, B, >
+
+colectie3, C
+colectie3, C, >
+
+colectie3, D
+colectie3, D, >
+
+colectie3, :
+colectie3, :, >
+
+colectie3, *
+verifcolectie3, *, >
+
+/////////////////
+
+verifcolectie3, b
+verifcolectie3, b, >
+
+verifcolectie3, c
+verifcolectie3, c, >
+
+verifcolectie3, d
+verifcolectie3, d, >
+
+verifcolectie3, :
+verifcolectie3, :, >
+
+verifcolectie3, *
+verifcolectie3, *, >
+
+verifcolectie3, a
+z2, A, <
+
+z2, A
+z2, A, <
+
+z2, b
+z2, b, <
+
+z2, c
+z2, c, <
+
+z2, d
+z2, d, <
+
+z2, :
+z2, :, <
+
+z2, *
+z12, *, >
+
+z12, A
+z12, A, >
+
+z12, c
+z12, c, >
+
+z12, d
+z12, d, >
+
+z12, :
+z12, :, >
+
+z12, b
+z3, B, <
+
+z3, A
+z3, A, <
+
+z3, B
+z3, B, <
+
+z3, c
+z3, c, <
+
+z3, d
+z3, d, <
+
+z3, :
+z3, :, <
+
+z3, *
+z13, *, >
+
+z13, A
+z13, A, >
+
+z13, B
+z13, B, >
+
+z13, d
+z13, d, >
+
+z13, :
+z13, :, >
+
+z13, c
+z4, C, <
+
+z4, A
+z4, A, <
+
+z4, B
+z4, B, <
+
+z4, C
+z4, C, <
+
+z4, d
+z4, d, <
+
+z4, :
+z4, :, <
+
+z4, *
+z14, *, >
+
+z14, A
+z14, A, >
+
+z14, B
+z14, B, >
+
+z14, C
+z14, C, >
+
+z14, :
+z14, :, >
+
+z14, d
+z5, D, <
+
+z5, A
+z5, A, <
+
+z5, B
+z5, B, <
+
+z5, C
+z5, C, <
+
+z5, D
+z5, D, <
+
+z5, :
+z5, :, <
+
+z5, *
+colectie4, *, >
+
+// ma duc la urmatoarea COLECTIE:
+
+colectie4, A
+colectie4, A, >
+
+colectie4, B
+colectie4, B, >
+
+colectie4, C
+colectie4, C, >
+
+colectie4, D
+colectie4, D, >
+
+colectie4, :
+colectie4, :, >
+
+colectie4, *
+verifcolectie4, *, >
+
+////////////////////////////////
+
+verifcolectie4, b
+verifcolectie4, b, >
+
+verifcolectie4, c
+verifcolectie4, c, >
+
+verifcolectie4, d
+verifcolectie4, d, >
+
+verifcolectie4, :
+verifcolectie4, :, >
+
+verifcolectie4, *
+verifcolectie4, *, >
+
+verifcolectie4, a
+p2, A, <
+
+p2, A
+p2, A, <
+
+p2, b
+p2, b, <
+
+p2, c
+p2, c, <
+
+p2, d
+p2, d, <
+
+p2, :
+p2, :, <
+
+p2, *
+p12, *, >
+
+p12, A
+p12, A, >
+
+p12, c
+p12, c, >
+
+p12, d
+p12, d, >
+
+p12, :
+p12, :, >
+
+p12, b
+p3, B, <
+
+p3, A
+p3, A, <
+
+p3, B
+p3, B, <
+
+p3, c
+p3, c, <
+
+p3, d
+p3, d, <
+
+p3, :
+p3, :, <
+
+p3, *
+p13, *, >
+
+p13, A
+p13, A, >
+
+p13, B
+p13, B, >
+
+p13, d
+p13, d, >
+
+p13, :
+p13, :, >
+
+p13, c
+p4, C, <
+
+p4, A
+p4, A, <
+
+p4, B
+p4, B, <
+
+p4, C
+p4, C, <
+
+p4, d
+p4, d, <
+
+p4, :
+p4, :, <
+
+p4, *
+p14, *, >
+
+p14, A
+p14, A, >
+
+p14, B
+p14, B, >
+
+p14, C
+p14, C, >
+
+p14, :
+p14, :, >
+
+p14, d
+p5, D, >
+
+p5, A
+p5, A, <
+
+p5, B
+p5, B, <
+
+p5, C
+p5, C, <
+
+p5, D
+p5, D, <
+
+p5, :
+p5, :, <
+
+p5, *
+next_task2, *, >
+
+// 
+
+
+next_task2, A
+next_task2, A, >
+
+next_task2, B
+next_task2, B, >
+
+next_task2, C
+next_task2, C, >
+
+next_task2, D
+next_task2, D, >
+
+next_task2, :
+next_task2, :, >
+
+next_task2, *
+next_task2, *, >
+
+next_task2, _
+intoarcere_linii, _, <
+
+intoarcere_linii, A
+intoarcere_linii, 1, <
+
+intoarcere_linii, B
+intoarcere_linii, 2, <
+
+intoarcere_linii, C
+intoarcere_linii, 3, <
+
+intoarcere_linii, D
+intoarcere_linii, 4, <
+
+intoarcere_linii, :
+intoarcere_linii, :, <
+
+intoarcere_linii, *
+intoarcere_linii, *, <
+
+intoarcere_linii, _
+start_col, _, >
+
+// task coloane:
+
+
+start_col, *
+start_col, *, >
+
+start_col, :
+start_col, :, >
+
+start_col, 1
+start_col, a, >
+
+start_col, 2
+start_col, b, >
+
+start_col, 3
+start_col, c, >
+
+start_col, 4
+start_col, d, >
+
+start_col, _
+back, _, <
+
+back, *
+back, *, <
+
+back, :
+back, :, <
+
+back, a
+back, a, <
+
+back, b
+back, b, <
+
+back, c
+back, c, <
+
+back, d
+back, d, <
+
+back, _
+back1, _, >
+
+back1, *
+stea1, *, >
+
+// s a oprit la prima *
+
+stea1, A
+stea1, A, >
+
+stea1, B
+stea1, B, >
+
+stea1, C
+stea1, C, >
+
+stea1, D
+stea1, D, >
+
+stea1, :
+stea1, :, >
+
+stea1, a
+qa, A, >
+
+stea1, b
+qb, B, >
+
+stea1, c
+qc, C, >
+
+stea1, d
+qd, D, >
+
+// nivel 2
+
+qa, a
+qa, a, >
+
+qa, b
+qa, b, >
+
+qa, c
+qa, c, >
+
+qa, d
+qa, d, >
+
+qa, :
+qa, :, >
+
+qa, *
+stea21, *, >
+
+//
+
+qb, a
+qb, a, >
+
+qb, b
+qb, b, >
+
+qb, c
+qb, c, >
+
+qb, d
+qb, d, >
+
+qb, :
+qb, :, >
+
+qb, *
+stea22, *, >
+
+//
+
+qc, a
+qc, a, >
+
+qc, b
+qc, b, >
+
+qc, c
+qc, c, >
+
+qc, d
+qc, d, >
+
+qc, :
+qc, :, >
+
+qc, *
+stea23, *, >
+
+//
+
+qd, a
+qd, a, >
+
+qd, b
+qd, b, >
+
+qd, c
+qd, c, >
+
+qd, d
+qd, d, >
+
+qd, :
+qd, :, >
+
+qd, *
+stea24, *, >
+
+// nivel 3
+
+stea21, b
+qab, B, >
+
+stea21, c
+qac, C, >
+
+stea21, d
+qad, D, >
+
+//
+
+stea22, a
+qba, B, >
+
+stea22, c
+qbc, C, >
+
+stea22, d
+qbd, D, >
+
+//
+
+stea23, a
+qca, A, >
+
+stea23, b
+qcb, B, >
+
+stea23, d
+qcd, D, >
+
+//
+
+stea24, a
+qda, A, >
+
+stea24, b
+qdb, B, >
+
+stea24, c
+qdc, C, >
+
+// nivel 4
+
+qab, a
+qab, a, >
+
+qab, b
+qab, b, >
+
+qab, c
+qab, c, >
+
+qab, d
+qab, d, >
+
+qab, :
+qab, :, >
+
+qab, *
+stea31, *, >
+
+qac, a
+qac, a, >
+
+qac, b
+qac, b, >
+
+qac, c
+qac, c, >
+
+qac, d
+qac, d, >
+
+qac, :
+qac, :, >
+
+qac, *
+stea32, *, >
+
+qad, a
+qad, a, >
+
+qad, b
+qad, b, >
+
+qad, c
+qad, c, >
+
+qad, d
+qad, d, >
+
+qad, :
+qad, :, >
+
+qad, *
+stea33, *, >
+
+//
+
+qba, a
+qba, a, >
+
+qba, b
+qba, b, >
+
+qba, c
+qba, c, >
+
+qba, d
+qba, d, >
+
+qba, :
+qba, :, >
+
+qba, *
+stea34, *, >
+
+qbc, a
+qbc, a, >
+
+qbc, b
+qbc, b, >
+
+qbc, c
+qbc, c, >
+
+qbc, d
+qbc, d, >
+
+qbc, :
+qbc, :, >
+
+qbc, *
+stea35, *, >
+
+qbd, a
+qbd, a, >
+
+qbd, b
+qbd, b, >
+
+qbd, c
+qbd, c, >
+
+qbd, d
+qbd, d, >
+
+qbd, :
+qbd, :, >
+
+qbd, *
+stea36, *, >
+
+//
+
+qca, a
+qca, a, >
+
+qca, b
+qca, b, >
+
+qca, c
+qca, c, >
+
+qca, d
+qca, d, >
+
+qca, :
+qca, :, >
+
+qca, *
+stea37, *, >
+
+qcb, a
+qcb, a, >
+
+qcb, b
+qcb, b, >
+
+qcb, c
+qcb, c, >
+
+qcb, d
+qcb, d, >
+
+qcb, :
+qcb, :, >
+
+qcb, *
+stea38, *, >
+
+qcd, a
+qcd, a, >
+
+qcd, b
+qcd, b, >
+
+qcd, c
+qcd, c, >
+
+qcd, d
+qcd, d, >
+
+qcd, :
+qcd, :, >
+
+qcd, *
+stea39, *, >
+
+//
+
+qda, a
+qda, a, >
+
+qda, b
+qda, b, >
+
+qda, c
+qda, c, >
+
+qda, d
+qda, d, >
+
+qda, :
+qda, :, >
+
+qda, *
+stea40, *, >
+
+qdb, a
+qdb, a, >
+
+qdb, b
+qdb, b, >
+
+qdb, c
+qdb, c, >
+
+qdb, d
+qdb, d, >
+
+qdb, :
+qdb, :, >
+
+qdb, *
+stea41, *, >
+
+qdc, a
+qdc, a, >
+
+qdc, b
+qdc, b, >
+
+qdc, c
+qdc, c, >
+
+qdc, d
+qdc, d, >
+
+qdc, :
+qdc, :, >
+
+qdc, *
+stea42, *, >
+
+// nivel 5
+
+stea31, c
+qabc, C, >
+
+stea31, d
+qabd, D, >
+
+//
+
+stea32, b
+qacb, B, >
+
+stea32, d
+qacd, D, >
+
+//
+
+stea33, b
+qadb, B, >
+
+stea33, c
+qadc, C, >
+
+//
+
+stea34, c
+qbac, C, > 
+
+stea34, d
+qbad, D, >
+
+//
+
+stea35, a
+qbca, A, >
+
+stea35, d
+qbcd, D, >
+
+//
+
+stea36, a
+qbda, A, >
+
+stea36, c
+qbdc, C, >
+
+//
+
+stea37, b
+qcab, B, >
+
+stea37, d
+qcad, D, >
+
+//
+
+stea38, a
+qcba, A, >
+
+stea38, d
+qcbd, D, >
+
+//
+
+stea39, a
+qcda, A, >
+
+stea39, b
+qcdb, B, >
+
+// 
+
+stea40, b
+qdab, B, >
+
+stea40, c
+qdac, C, >
+
+//
+
+stea41, a
+qdba, A, >
+
+stea41, c
+qdbc, C, >
+
+//
+
+stea42, a
+qdca, A, >
+
+stea42, b
+qdcb, B, >
+
+// nivel 6
+
+qabc, a
+qabc, a, >
+
+qabc, b
+qabc, b, >
+
+qabc, c
+qabc, c, >
+
+qabc, d
+qabc, d, >
+
+qabc, :
+qabc, :, >
+
+qabc, *
+stea43, *, >
+
+//
+
+qabd, a
+qabd, a, >
+
+qabd, b
+qabd, b, >
+
+qabd, c
+qabd, c, >
+
+qabd, d
+qabd, d, >
+
+qabd, :
+qabd, :, >
+
+qabd, *
+stea44, *, >
+
+//
+
+qacb, a
+qacb, a, >
+
+qacb, b
+qacb, b, >
+
+qacb, c
+qacb, c, >
+
+qacb, d
+qacb, d, >
+
+qacb, :
+qacb, :, >
+
+qacb, *
+stea45, *, >
+
+//
+
+qacd, a
+qacd, a, >
+
+qacd, b
+qacd, b, >
+
+qacd, c
+qacd, c, >
+
+qacd, d
+qacd, d, >
+
+qacd, :
+qacd, :, >
+
+qacd, *
+stea46, *, >
+
+//
+
+qadb, a
+qadb, a, >
+
+qadb, b
+qadb, b, >
+
+qadb, c
+qadb, c, >
+
+qadb, d
+qadb, d, >
+
+qadb, :
+qadb, :, >
+
+qadb, *
+stea47, *, >
+
+//
+
+qadc, a
+qadc, a, >
+
+qadc, b
+qadc, b, >
+
+qadc, c
+qadc, c, >
+
+qadc, d
+qadc, d, >
+
+qadc, :
+qadc, :, >
+
+qadc, *
+stea48, *, >
+
+//
+
+qbac, a
+qbac, a, >
+
+qbac, b
+qbac, b, >
+
+qbac, c
+qbac, c, >
+
+qbac, d
+qbac, d, >
+
+qbac, :
+qbac, :, >
+
+qbac, *
+stea49, *, >
+
+//
+
+qbad, a
+qbad, a, >
+
+qbad, b
+qbad, b, >
+
+qbad, c
+qbad, c, >
+
+qbad, d
+qbad, d, >
+
+qbad, :
+qbad, :, >
+
+qbad, *
+stea50, *, >
+
+//
+
+qbca, a
+qbca, a, >
+
+qbca, b
+qbca, b, >
+
+qbca, c
+qbca, c, >
+
+qbca, d
+qbca, d, >
+
+qbca, :
+qbca, :, >
+
+qbca, *
+stea51, *, >
+
+//
+
+qbcd, a
+qbcd, a, >
+
+qbcd, b
+qbcd, b, >
+
+qbcd, c
+qbcd, c, >
+
+qbcd, d
+qbcd, d, >
+
+qbcd, :
+qbcd, :, >
+
+qbcd, *
+stea52, *, >
+
+//
+
+qbda, a
+qbda, a, >
+
+qbda, b
+qbda, b, >
+
+qbda, c
+qbda, c, >
+
+qbda, d
+qbda, d, >
+
+qbda, :
+qbda, :, >
+
+qbda, *
+stea53, *, >
+
+//
+qbdc, a
+qbdc, a, >
+
+qbdc, b
+qbdc, b, >
+
+qbdc, c
+qbdc, c, >
+
+qbdc, d
+qbdc, d, >
+
+qbdc, :
+qbdc, :, >
+
+qbdc, *
+stea54, *, >
+
+//
+
+qcab, a
+qcab, a, >
+
+qcab, b
+qcab, b, >
+
+qcab, c
+qcab, c, >
+
+qcab, d
+qcab, d, >
+
+qcab, :
+qcab, :, >
+
+qcab, *
+stea55, *, >
+
+//
+
+qcad, a
+qcad, a, >
+
+qcad, b
+qcad, b, >
+
+qcad, c
+qcad, c, >
+
+qcad, d
+qcad, d, >
+
+qcad, :
+qcad, :, >
+
+qcad, *
+stea56, *, >
+
+//
+
+qcba, a
+qcba, a, >
+
+qcba, b
+qcba, b, >
+
+qcba, c
+qcba, c, >
+
+qcba, d
+qcba, d, >
+
+qcba, :
+qcba, :, >
+
+qcba, *
+stea57, *, >
+
+//
+
+qcbd, a
+qcbd, a, >
+
+qcbd, b
+qcbd, b, >
+
+qcbd, c
+qcbd, c, >
+
+qcbd, d
+qcbd, d, >
+
+qcbd, :
+qcbd, :, >
+
+qcbd, *
+stea58, *, >
+
+//
+qcda, a
+qcda, a, >
+
+qcda, b
+qcda, b, >
+
+qcda, c
+qcda, c, >
+
+qcda, d
+qcda, d, >
+
+qcda, :
+qcda, :, >
+
+qcda, *
+stea59, *, >
+
+//
+
+qcdb, a
+qcdb, a, >
+
+qcdb, b
+qcdb, b, >
+
+qcdb, c
+qcdb, c, >
+
+qcdb, d
+qcdb, d, >
+
+qcdb, :
+qcdb, :, >
+
+qcdb, *
+stea60, *, >
+
+//
+qdab, a
+qdab, a, >
+
+qdab, b
+qdab, b, >
+
+qdab, c
+qdab, c, >
+
+qdab, d
+qdab, d, >
+
+qdab, :
+qdab, :, >
+
+qdab, *
+stea61, *, >
+
+//
+qdac, a
+qdac, a, >
+
+qdac, b
+qdac, b, >
+
+qdac, c
+qdac, c, >
+
+qdac, d
+qdac, d, >
+
+qdac, :
+qdac, :, >
+
+qdac, *
+stea62, *, >
+
+//
+qdba, a
+qdba, a, >
+
+qdba, b
+qdba, b, >
+
+qdba, c
+qdba, c, >
+
+qdba, d
+qdba, d, >
+
+qdba, :
+qdba, :, >
+
+qdba, *
+stea63, *, >
+
+//
+
+qdbc, a
+qdbc, a, >
+
+qdbc, b
+qdbc, b, >
+
+qdbc, c
+qdbc, c, >
+
+qdbc, d
+qdbc, d, >
+
+qdbc, :
+qdbc, :, >
+
+qdbc, *
+stea64, *, >
+
+//
+
+qdca, a
+qdca, a, >
+
+qdca, b
+qdca, b, >
+
+qdca, c
+qdca, c, >
+
+qdca, d
+qdca, d, >
+
+qdca, :
+qdca, :, >
+
+qdca, *
+stea65, *, >
+
+//
+
+qdcb, a
+qdcb, a, >
+
+qdcb, b
+qdcb, b, >
+
+qdcb, c
+qdcb, c, >
+
+qdcb, d
+qdcb, d, >
+
+qdcb, :
+qdcb, :, >
+
+qdcb, *
+stea66, *, >
+
+// nivel 7
+
+stea43, d
+qabcd, D, >
+
+stea44, c
+qabdc, C, >
+
+stea45, d
+qacbd, D, >
+
+stea46, b
+qacdb, B, >
+
+stea47, c
+qadbc, C, >
+
+stea48, b
+qadcb, B, >
+
+stea49, d
+qbacd, D, >
+
+stea50, c
+qbadc, C, >
+
+stea51, d
+qbcad, D, >
+
+stea52, a
+qbcda, A, >
+
+stea53, c
+qbdac, C, >
+
+stea54, a
+qbdca, A, >
+
+stea55, d
+qcabd, D, >
+
+stea56, b
+qcadb, B, >
+
+stea57, d
+qcbad, D, >
+
+stea58, a
+qcbda, A, >
+
+stea59, b
+qcdab, B, >
+
+stea60, a
+qcdba, A, >
+
+stea61, c
+qdabc, C, >
+
+stea62, b
+qdacb, B, >
+
+stea63, c
+qdbac, C, >
+
+stea64, a
+qdbca, A, >
+
+stea65, b
+qdcab, B, >
+
+stea66, a
+qdcba, A, >
+
+// nivel 8
+
+qabcd, a
+qabcd, a, >
+
+qabcd, b
+qabcd, b, >
+
+qabcd, c
+qabcd, c, >
+
+qabcd, d
+qabcd, d, >
+
+qabcd, :
+qabcd, :, >
+
+qabcd, *
+steafin, *, >
+
+//
+
+qabdc, a
+qabdc, a, >
+
+qabdc, b
+qabdc, b, >
+
+qabdc, c
+qabdc, c, >
+
+qabdc, d
+qabdc, d, >
+
+qabdc, :
+qabdc, :, >
+
+qabdc, *
+steafin, *, >
+
+//
+
+qacbd, a
+qacbd, a, >
+
+qacbd, b
+qacbd, b, >
+
+qacbd, c
+qacbd, c, >
+
+qacbd, d
+qacbd, d, >
+
+qacbd, :
+qacbd, :, >
+
+qacbd, *
+steafin, *, >
+
+//
+
+qacdb, a
+qacdb, a, >
+
+qacdb, b
+qacdb, b, >
+
+qacdb, c
+qacdb, c, >
+
+qacdb, d
+qacdb, d, >
+
+qacdb, :
+qacdb, :, >
+
+qacdb, *
+steafin, *, >
+
+//
+
+qadbc, a
+qadbc, a, >
+
+qadbc, b
+qadbc, b, >
+
+qadbc, c
+qadbc, c, >
+
+qadbc, d
+qadbc, d, >
+
+qadbc, :
+qadbc, :, >
+
+qadbc, *
+steafin, *, >
+
+//
+
+qadcb, a
+qadcb, a, >
+
+qadcb, b
+qadcb, b, >
+
+qadcb, c
+qadcb, c, >
+
+qadcb, d
+qadcb, d, >
+
+qadcb, :
+qadcb, :, >
+
+qadcb, *
+steafin, *, >
+
+//
+
+qbacd, a
+qbacd, a, >
+
+qbacd, b
+qbacd, b, >
+
+qbacd, c
+qbacd, c, >
+
+qbacd, d
+qbacd, d, >
+
+qbacd, :
+qbacd, :, >
+
+qbacd, *
+steafin, *, >
+
+//
+qbadc, a
+qbadc, a, >
+
+qbadc, b
+qbadc, b, >
+
+qbadc, c
+qbadc, c, >
+
+qbadc, d
+qbadc, d, >
+
+qbadc, :
+qbadc, :, >
+
+qbadc, *
+steafin, *, >
+
+//
+
+qbcad, a
+qbcad, a, >
+
+qbcad, b
+qbcad, b, >
+
+qbcad, c
+qbcad, c, >
+
+qbcad, d
+qbcad, d, >
+
+qbcad, :
+qbcad, :, >
+
+qbcad, *
+steafin, *, >
+
+//
+
+qbcda, a
+qbcda, a, >
+
+qbcda, b
+qbcda, b, >
+
+qbcda, c
+qbcda, c, >
+
+qbcda, d
+qbcda, d, >
+
+qbcda, :
+qbcda, :, >
+
+qbcda, *
+steafin, *, >
+
+//
+
+qbdac, a
+qbdac, a, >
+
+qbdac, b
+qbdac, b, >
+
+qbdac, c
+qbdac, c, >
+
+qbdac, d
+qbdac, d, >
+
+qbdac, :
+qbdac, :, >
+
+qbdac, *
+steafin, *, >
+
+//
+
+qbdca, a
+qbdca, a, >
+
+qbdca, b
+qbdca, b, >
+
+qbdca, c
+qbdca, c, >
+
+qbdca, d
+qbdca, d, >
+
+qbdca, :
+qbdca, :, >
+
+qbdca, *
+steafin, *, >
+
+//
+
+qcabd, a
+qcabd, a, >
+
+qcabd, b
+qcabd, b, >
+
+qcabd, c
+qcabd, c, >
+
+qcabd, d
+qcabd, d, >
+
+qcabd, :
+qcabd, :, >
+
+qcabd, *
+steafin, *, >
+
+//
+
+qcadb, a
+qcadb, a, >
+
+qcadb, b
+qcadb, b, >
+
+qcadb, c
+qcadb, c, >
+
+qcadb, d
+qcadb, d, >
+
+qcadb, :
+qcadb, :, >
+
+qcadb, *
+steafin, *, >
+
+//
+
+qcbad, a
+qcbad, a, >
+
+qcbad, b
+qcbad, b, >
+
+qcbad, c
+qcbad, c, >
+
+qcbad, d
+qcbad, d, >
+
+qcbad, :
+qcbad, :, >
+
+qcbad, *
+steafin, *, >
+
+//
+
+qcbda, a
+qcbda, a, >
+
+qcbda, b
+qcbda, b, >
+
+qcbda, c
+qcbda, c, >
+
+qcbda, d
+qcbda, d, >
+
+qcbda, :
+qcbda, :, >
+
+qcbda, *
+steafin, *, >
+
+//
+
+qcdab, a
+qcdab, a, >
+
+qcdab, b
+qcdab, b, >
+
+qcdab, c
+qcdab, c, >
+
+qcdab, d
+qcdab, d, >
+
+qcdab, :
+qcdab, :, >
+
+qcdab, *
+steafin, *, >
+
+//
+
+qcdba, a
+qcdba, a, >
+
+qcdba, b
+qcdba, b, >
+
+qcdba, c
+qcdba, c, >
+
+qcdba, d
+qcdba, d, >
+
+qcdba, :
+qcdba, :, >
+
+qcdba, *
+steafin, *, >
+
+//
+
+qdabc, a
+qdabc, a, >
+
+qdabc, b
+qdabc, b, >
+
+qdabc, c
+qdabc, c, >
+
+qdabc, d
+qdabc, d, >
+
+qdabc, :
+qdabc, :, >
+
+qdabc, *
+steafin, *, >
+
+//
+
+qdacb, a
+qdacb, a, >
+
+qdacb, b
+qdacb, b, >
+
+qdacb, c
+qdacb, c, >
+
+qdacb, d
+qdacb, d, >
+
+qdacb, :
+qdacb, :, >
+
+qdacb, *
+steafin, *, >
+
+//
+
+qdbac, a
+qdbac, a, >
+
+qdbac, b
+qdbac, b, >
+
+qdbac, c
+qdbac, c, >
+
+qdbac, d
+qdbac, d, >
+
+qdbac, :
+qdbac, :, >
+
+qdbac, *
+steafin, *, >
+
+//
+
+qdbca, a
+qdbca, a, >
+
+qdbca, b
+qdbca, b, >
+
+qdbca, c
+qdbca, c, >
+
+qdbca, d
+qdbca, d, >
+
+qdbca, :
+qdbca, :, >
+
+qdbca, *
+steafin, *, >
+
+//
+
+qdcab, a
+qdcab, a, >
+
+qdcab, b
+qdcab, b, >
+
+qdcab, c
+qdcab, c, >
+
+qdcab, d
+qdcab, d, >
+
+qdcab, :
+qdcab, :, >
+
+qdcab, *
+steafin, *, >
+
+//
+
+qdcba, a
+qdcba, a, >
+
+qdcba, b
+qdcba, b, >
+
+qdcba, c
+qdcba, c, >
+
+qdcba, d
+qdcba, d, >
+
+qdcba, :
+qdcba, :, >
+
+qdcba, *
+steafin, *, >
+
+// ma intorc pentru coloana 2:
+
+steafin, _
+back2, _, <
+
+back2, a
+back2, a, <
+
+back2, b
+back2, b, <
+
+back2, c
+back2, c, <
+
+back2, d
+back2, d, <
+
+back2, A
+back2, A, <
+
+back2, B
+back2, B, <
+
+back2, C
+back2, C, <
+
+back2, D
+back2, D, <
+
+back2, :
+back2, :, <
+
+back2, *
+back2, *, <
+
+back2, _
+restart2, _, >
+
+
+// coloana - 2:
+
+restart2, *
+stea11, *, >
+
+// s a oprit la prima stea
+
+stea11, A
+stea11, A, >
+
+stea11, B
+stea11, B, >
+
+stea11, C
+stea11, C, >
+
+stea11, D
+stea11, D, >
+
+stea11, :
+stea11, :, >
+
+stea11, a
+q2a, A, >
+
+stea11, b
+q2b, B, >
+
+stea11, c
+q2c, C, >
+
+stea11, d
+q2d, D, >
+
+// nivel 2
+
+q2a, a
+q2a, a, >
+
+q2a, b
+q2a, b, >
+
+q2a, c
+q2a, c, >
+
+q2a, d
+q2a, d, >
+
+q2a, :
+q2a, :, >
+
+q2a, *
+stea221, *, >
+
+//
+
+q2b, a
+q2b, a, >
+
+q2b, b
+q2b, b, >
+
+q2b, c
+q2b, c, >
+
+q2b, d
+q2b, d, >
+
+q2b, :
+q2b, :, >
+
+q2b, *
+stea222, *, >
+
+//
+
+q2c, a
+q2c, a, >
+
+q2c, b
+q2c, b, >
+
+q2c, c
+q2c, c, >
+
+q2c, d
+q2c, d, >
+
+q2c, :
+q2c, :, >
+
+q2c, *
+stea223, *, >
+
+//
+
+q2d, a
+q2d, a, >
+
+q2d, b
+q2d, b, >
+
+q2d, c
+q2d, c, >
+
+q2d, d
+q2d, d, >
+
+q2d, :
+q2d, :, >
+
+q2d, *
+stea224, *, >
+
+// nivel 3
+
+// ce este cu litera mare ignora
+
+stea221, A
+stea221, A, >
+
+stea221, B
+stea221, B, >
+
+stea221, C
+stea221, C, >
+
+stea221, D
+stea221, D, >
+
+stea221, :
+stea221, :, >
+
+stea221, b
+q2ab, B, >
+
+stea221, c
+q2ac, C, >
+
+stea221, d
+q2ad, D, >
+
+//
+
+stea222, A
+stea222, A, >
+
+stea222, B
+stea222, B, >
+
+stea222, C
+stea222, C, >
+
+stea222, D
+stea222, D, >
+
+stea222, :
+stea222, :, >
+
+stea222, a
+q2ba, A, >
+
+stea222, c
+q2bc, C, >
+
+stea222, d
+q2bd, D, >
+
+//
+
+stea223, A
+stea223, A, >
+
+stea223, B
+stea223, B, >
+
+stea223, C
+stea223, C, >
+
+stea223, D
+stea223, D, >
+
+stea223, :
+stea223, :, >
+
+stea223, a
+q2ca, A, >
+
+stea223, b
+q2cb, B, >
+
+stea223, d
+q2cd, D, >
+
+//
+
+stea224, A
+stea224, A, >
+
+stea224, B
+stea224, B, >
+
+stea224, C
+stea224, C, >
+
+stea224, D
+stea224, D, >
+
+stea224, :
+stea224, :, >
+
+stea224, a
+q2da, A, >
+
+stea224, b
+q2db, B, >
+
+stea224, c
+q2dc, C, >
+
+// nivel 4 cauta steluta ca sa termine *...*
+
+q2ab, a
+q2ab, a, >
+
+q2ab, b
+q2ab, b, >
+
+q2ab, c
+q2ab, c, >
+
+q2ab, d
+q2ab, d, >
+
+q2ab, :
+q2ab, :, >
+
+q2ab, *
+stea231, *, >
+
+//
+
+q2ac, a
+q2ac, a, >
+
+q2ac, b
+q2ac, b, >
+
+q2ac, c
+q2ac, c, >
+
+q2ac, d
+q2ac, d, >
+
+q2ac, :
+q2ac, :, >
+
+q2ac, *
+stea232, *, >
+
+//
+
+q2ad, a
+q2ad, a, >
+
+q2ad, b
+q2ad, b, >
+
+q2ad, c
+q2ad, c, >
+
+q2ad, d
+q2ad, d, >
+
+q2ad, :
+q2ad, :, >
+
+q2ad, *
+stea233, *, >
+
+//
+
+q2ba, a
+q2ba, a, >
+
+q2ba, b
+q2ba, b, >
+
+q2ba, c
+q2ba, c, >
+
+q2ba, d
+q2ba, d, >
+
+q2ba, :
+q2ba, :, >
+
+q2ba, *
+stea234, *, >
+
+//
+
+q2bc, a
+q2bc, a, >
+
+q2bc, b
+q2bc, b, >
+
+q2bc, c
+q2bc, c, >
+
+q2bc, d
+q2bc, d, >
+
+q2bc, :
+q2bc, :, >
+
+q2bc, *
+stea235, *, >
+
+//
+
+q2bd, a
+q2bd, a, >
+
+q2bd, b
+q2bd, b, >
+
+q2bd, c
+q2bd, c, >
+
+q2bd, d
+q2bd, d, >
+
+q2bd, :
+q2bd, :, >
+
+q2bd, *
+stea236, *, >
+
+////
+
+q2ca, a
+q2ca, a, >
+
+q2ca, b
+q2ca, b, >
+
+q2ca, c
+q2ca, c, >
+
+q2ca, d
+q2ca, d, >
+
+q2ca, :
+q2ca, :, >
+
+q2ca, *
+stea237, *, >
+
+//
+
+q2cb, a
+q2cb, a, >
+
+q2cb, b
+q2cb, b, >
+
+q2cb, c
+q2cb, c, >
+
+q2cb, d
+q2cb, d, >
+
+q2cb, :
+q2cb, :, >
+
+q2cb, *
+stea238, *, >
+
+//
+
+q2cd, a
+q2cd, a, >
+
+q2cd, b
+q2cd, b, >
+
+q2cd, c
+q2cd, c, >
+
+q2cd, d
+q2cd, d, >
+
+q2cd, :
+q2cd, :, >
+
+q2cd, *
+stea239, *, >
+
+////
+
+q2da, a
+q2da, a, >
+
+q2da, b
+q2da, b, >
+
+q2da, c
+q2da, c, >
+
+q2da, d
+q2da, d, >
+
+q2da, :
+q2da, :, >
+
+q2da, *
+stea240, *, >
+
+//
+
+q2db, a
+q2db, a, >
+
+q2db, b
+q2db, b, >
+
+q2db, c
+q2db, c, >
+
+q2db, d
+q2db, d, >
+
+q2db, :
+q2db, :, >
+
+q2db, *
+stea241, *, >
+
+//
+
+q2dc, a
+q2dc, a, >
+
+q2dc, b
+q2dc, b, >
+
+q2dc, c
+q2dc, c, >
+
+q2dc, d
+q2dc, d, >
+
+q2dc, :
+q2dc, :, >
+
+q2dc, *
+stea242, *, >
+
+// nivel 5 
+
+stea231, A
+stea231, A, >
+
+stea231, B
+stea231, B, >
+
+stea231, C
+stea231, C, >
+
+stea231, D
+stea231, D, >
+
+stea231, :
+stea231, :, >
+
+stea231, c
+q2abc, C, >
+
+stea231, d
+q2abd, D, >
+
+//
+
+stea232, A
+stea232, A, >
+
+stea232, B
+stea232, B, >
+
+stea232, C
+stea232, C, >
+
+stea232, D
+stea232, D, >
+
+stea232, :
+stea232, :, >
+
+stea232, b
+q2acb, B, >
+
+stea232, d
+q2acd, D, >
+
+//
+
+stea233, A
+stea233, A, >
+
+stea233, B
+stea233, B, >
+
+stea233, C
+stea233, C, >
+
+stea233, D
+stea233, D, >
+
+stea233, :
+stea233, :, >
+
+stea233, b
+q2adb, B, >
+
+stea233, c
+q2adc, C, >
+
+//
+
+stea234, A
+stea234, A, >
+
+stea234, B
+stea234, B, >
+
+stea234, C
+stea234, C, >
+
+stea234, D
+stea234, D, >
+
+stea234, :
+stea234, :, >
+
+stea234, c
+q2bac, C, >
+
+stea234, d
+q2bad, D, >
+
+//
+
+stea235, A
+stea235, A, >
+
+stea235, B
+stea235, B, >
+
+stea235, C
+stea235, C, >
+
+stea235, D
+stea235, D, >
+
+stea235, :
+stea235, :, >
+
+stea235, a
+q2bca, A, >
+
+stea235, d
+q2bcd, D, >
+
+//
+
+stea236, A
+stea236, A, >
+
+stea236, B
+stea236, B, >
+
+stea236, C
+stea236, C, >
+
+stea236, D
+stea236, D, >
+
+stea236, :
+stea236, :, >
+
+stea236, a
+q2bda, A, >
+
+stea236, c
+q2bdc, C, >
+
+//
+
+stea237, A
+stea237, A, >
+
+stea237, B
+stea237, B, >
+
+stea237, C
+stea237, C, >
+
+stea237, D
+stea237, D, >
+
+stea237, :
+stea237, :, >
+
+stea237, b
+q2cab, B, >
+
+stea237, d
+q2cad, D, >
+
+//
+
+stea238, A
+stea238, A, >
+
+stea238, B
+stea238, B, >
+
+stea238, C
+stea238, C, >
+
+stea238, D
+stea238, D, >
+
+stea238, :
+stea238, :, >
+
+stea238, a
+q2cba, A, >
+
+stea238, d
+q2cbd, D, >
+
+//
+
+stea239, A
+stea239, A, >
+
+stea239, B
+stea239, B, >
+
+stea239, C
+stea239, C, >
+
+stea239, D
+stea239, D, >
+
+stea239, :
+stea239, :, >
+
+stea239, a
+q2cda, A, >
+
+stea239, b
+q2cdb, B, >
+
+//
+
+stea240, A
+stea240, A, >
+
+stea240, B
+stea240, B, >
+
+stea240, C
+stea240, C, >
+
+stea240, D
+stea240, D, >
+
+stea240, :
+stea240, :, >
+
+stea240, b
+q2dab, B, >
+
+stea240, c
+q2dac, C, >
+
+//
+
+stea241, A
+stea241, A, >
+
+stea241, B
+stea241, B, >
+
+stea241, C
+stea241, C, >
+
+stea241, D
+stea241, D, >
+
+stea241, :
+stea241, :, >
+
+stea241, a
+q2bda, A, >
+
+stea241, c
+q2dbc, C, >
+
+//
+
+stea242, A
+stea242, A, >
+
+stea242, B
+stea242, B, >
+
+stea242, C
+stea242, C, >
+
+stea242, D
+stea242, D, >
+
+stea242, :
+stea242, :, >
+
+stea242, a
+q2dca, A, >
+
+stea242, b
+q2dcb, B, >
+
+// nivel 6 vreau sa ajung la urm *
+
+q2abc, a
+q2abc, a, >
+
+q2abc, b
+q2abc, b, >
+
+q2abc, c
+q2abc, c, >
+
+q2abc, d
+q2abc, d, >
+
+q2abc, :
+q2abc, :, >
+
+q2abc, *
+stea243, *, >
+
+//
+
+q2abd, a
+q2abd, a, >
+
+q2abd, b
+q2abd, b, >
+
+q2abd, c
+q2abd, c, >
+
+q2abd, d
+q2abd, d, >
+
+q2abd, :
+q2abd, :, >
+
+q2abd, *
+stea244, *, >
+
+//
+
+q2acb, a
+q2acb, a, >
+
+q2acb, b
+q2acb, b, >
+
+q2acb, c
+q2acb, c, >
+
+q2acb, d
+q2acb, d, >
+
+q2acb, :
+q2acb, :, >
+
+q2acb, *
+stea245, *, >
+
+//
+
+q2acd, a
+q2acd, a, >
+
+q2acd, b
+q2acd, b, >
+
+q2acd, c
+q2acd, c, >
+
+q2acd, d
+q2acd, d, >
+
+q2acd, :
+q2acd, :, >
+
+q2acd, *
+stea246, *, >
+
+//
+
+q2adb, a
+q2adb, a, >
+
+q2adb, b
+q2adb, b, >
+
+q2adb, c
+q2adb, c, >
+
+q2adb, d
+q2adb, d, >
+
+q2adb, :
+q2adb, :, >
+
+q2adb, *
+stea247, *, >
+
+//
+
+q2adc, a
+q2adc, a, >
+
+q2adc, b
+q2adc, b, >
+
+q2adc, c
+q2adc, c, >
+
+q2adc, d
+q2adc, d, >
+
+q2adc, :
+q2adc, :, >
+
+q2adc, *
+stea248, *, >
+
+//
+
+q2bac, a
+q2bac, a, >
+
+q2bac, b
+q2bac, b, >
+
+q2bac, c
+q2bac, c, >
+
+q2bac, d
+q2bac, d, >
+
+q2bac, :
+q2bac, :, >
+
+q2bac, *
+stea249, *, >
+
+//
+
+q2bad, a
+q2bad, a, >
+
+q2bad, b
+q2bad, b, >
+
+q2bad, c
+q2bad, c, >
+
+q2bad, d
+q2bad, d, >
+
+q2bad, :
+q2bad, :, >
+
+q2bad, *
+stea250, *, >
+
+//
+
+q2bca, a
+q2bca, a, >
+
+q2bca, b
+q2bca, b, >
+
+q2bca, c
+q2bca, c, >
+
+q2bca, d
+q2bca, d, >
+
+q2bca, :
+q2bca, :, >
+
+q2bca, *
+stea251, *, >
+
+//
+
+q2bcd, a
+q2bcd, a, >
+
+q2bcd, b
+q2bcd, b, >
+
+q2bcd, c
+q2bcd, c, >
+
+q2bcd, d
+q2bcd, d, >
+
+q2bcd, :
+q2bcd, :, >
+
+q2bcd, *
+stea252, *, >
+
+//
+
+q2bda, a
+q2bda, a, >
+
+q2bda, b
+q2bda, b, >
+
+q2bda, c
+q2bda, c, >
+
+q2bda, d
+q2bda, d, >
+
+q2bda, :
+q2bda, :, >
+
+q2bda, *
+stea253, *, >
+
+//
+
+q2bdc, a
+q2bdc, a, >
+
+q2bdc, b
+q2bdc, b, >
+
+q2bdc, c
+q2bdc, c, >
+
+q2bdc, d
+q2bdc, d, >
+
+q2bdc, :
+q2bdc, :, >
+
+q2bdc, *
+stea254, *, >
+
+//
+
+q2cab, a
+q2cab, a, >
+
+q2cab, b
+q2cab, b, >
+
+q2cab, c
+q2cab, c, >
+
+q2cab, d
+q2cab, d, >
+
+q2cab, :
+q2cab, :, >
+
+q2cab, *
+stea255, *, >
+
+//
+
+q2cad, a
+q2cad, a, >
+
+q2cad, b
+q2cad, b, >
+
+q2cad, c
+q2cad, c, >
+
+q2cad, d
+q2cad, d, >
+
+q2cad, :
+q2cad, :, >
+
+q2cad, *
+stea256, *, >
+
+//
+
+q2cba, a
+q2cba, a, >
+
+q2cba, b
+q2cba, b, >
+
+q2cba, c
+q2cba, c, >
+
+q2cba, d
+q2cba, d, >
+
+q2cba, :
+q2cba, :, >
+
+q2cba, *
+stea257, *, >
+
+//
+
+q2cbd, a
+q2cbd, a, >
+
+q2cbd, b
+q2cbd, b, >
+
+q2cbd, c
+q2cbd, c, >
+
+q2cbd, d
+q2cbd, d, >
+
+q2cbd, :
+q2cbd, :, >
+
+q2cbd, *
+stea258, *, >
+
+//
+
+q2cda, a
+q2cda, a, >
+
+q2cda, b
+q2cda, b, >
+
+q2cda, c
+q2cda, c, >
+
+q2cda, d
+q2cda, d, >
+
+q2cda, :
+q2cda, :, >
+
+q2cda, *
+stea259, *, >
+
+//
+
+q2cdb, a
+q2cdb, a, >
+
+q2cdb, b
+q2cdb, b, >
+
+q2cdb, c
+q2cdb, c, >
+
+q2cdb, d
+q2cdb, d, >
+
+q2cdb, :
+q2cdb, :, >
+
+q2cdb, *
+stea260, *, >
+
+//
+
+q2dab, a
+q2dab, a, >
+
+q2dab, b
+q2dab, b, >
+
+q2dab, c
+q2dab, c, >
+
+q2dab, d
+q2dab, d, >
+
+q2dab, :
+q2dab, :, >
+
+q2dab, *
+stea261, *, >
+
+//
+
+q2dac, a
+q2dac, a, >
+
+q2dac, b
+q2dac, b, >
+
+q2dac, c
+q2dac, c, >
+
+q2dac, d
+q2dac, d, >
+
+q2dac, :
+q2dac, :, >
+
+q2dac, *
+stea262, *, >
+
+//
+
+q2dba, a
+q2dba, a, >
+
+q2dba, b
+q2dba, b, >
+
+q2dba, c
+q2dba, c, >
+
+q2dba, d
+q2dba, d, >
+
+q2dba, :
+q2dba, :, >
+
+q2dba, *
+stea263, *, >
+
+//
+
+q2dbc, a
+q2dbc, a, >
+
+q2dbc, b
+q2dbc, b, >
+
+q2dbc, c
+q2dbc, c, >
+
+q2dbc, d
+q2dbc, d, >
+
+q2dbc, :
+q2dbc, :, >
+
+q2dbc, *
+stea264, *, >
+
+//
+
+q2dca, a
+q2dca, a, >
+
+q2dca, b
+q2dca, b, >
+
+q2dca, c
+q2dca, c, >
+
+q2dca, d
+q2dca, d, >
+
+q2dca, :
+q2dca, :, >
+
+q2dca, *
+stea265, *, >
+
+//
+
+q2dcb, a
+q2dcb, a, >
+
+q2dcb, b
+q2dcb, b, >
+
+q2dcb, c
+q2dcb, c, >
+
+q2dcb, d
+q2dcb, d, >
+
+q2dcb, :
+q2dcb, :, >
+
+q2dcb, *
+stea266, *, >
+
+// nivel 7 trebuie ignorate literele mari
+
+stea243, A
+stea243, A, >
+
+stea243, B
+stea243, B, >
+
+stea243, C
+stea243, C, >
+
+stea243, D
+stea243, D, >
+
+stea243, :
+stea243, :, >
+
+stea243, d
+q2abcd, D, >
+
+//
+
+stea244, A
+stea244, A, >
+
+stea244, B
+stea244, B, >
+
+stea244, C
+stea244, C, >
+
+stea244, D
+stea244, D, >
+
+stea244, :
+stea244, :, >
+
+stea244, c
+q2abdc, C, >
+
+//
+
+stea245, A
+stea245, A, >
+
+stea245, B
+stea245, B, >
+
+stea245, C
+stea245, C, >
+
+stea245, D
+stea245, D, >
+
+stea245, :
+stea245, :, >
+
+stea245, d
+q2acbd, D, >
+
+//
+
+stea246, A
+stea246, A, >
+
+stea246, B
+stea246, B, >
+
+stea246, C
+stea246, C, >
+
+stea246, D
+stea246, D, >
+
+stea246, :
+stea246, :, >
+
+stea246, b
+q2acdb, B, >
+
+//
+
+stea247, A
+stea247, A, >
+
+stea247, B
+stea247, B, >
+
+stea247, C
+stea247, C, >
+
+stea247, D
+stea247, D, >
+
+stea247, :
+stea247, :, >
+
+stea247, c
+q2adbc, C, >
+
+//
+
+stea248, A
+stea248, A, >
+
+stea248, B
+stea248, B, >
+
+stea248, C
+stea248, C, >
+
+stea248, D
+stea248, D, >
+
+stea248, :
+stea248, :, >
+
+stea248, b
+q2adcb, B, >
+
+//
+
+stea249, A
+stea249, A, >
+
+stea249, B
+stea249, B, >
+
+stea249, C
+stea249, C, >
+
+stea249, D
+stea249, D, >
+
+stea249, :
+stea249, :, >
+
+stea249, d
+q2bacd, D, >
+
+//
+
+stea250, A
+stea250, A, >
+
+stea250, B
+stea250, B, >
+
+stea250, C
+stea250, C, >
+
+stea250, D
+stea250, D, >
+
+stea250, :
+stea250, :, >
+
+stea250, c
+q2badc, C, >
+
+//
+
+stea251, A
+stea251, A, >
+
+stea251, B
+stea251, B, >
+
+stea251, C
+stea251, C, >
+
+stea251, D
+stea251, D, >
+
+stea251, :
+stea251, :, >
+
+stea251, d
+q2bcad, D, >
+
+//
+
+stea252, A
+stea252, A, >
+
+stea252, B
+stea252, B, >
+
+stea252, C
+stea252, C, >
+
+stea252, D
+stea252, D, >
+
+stea252, :
+stea252, :, >
+
+stea252, a
+q2bcda, A, >
+
+//
+
+stea253, A
+stea253, A, >
+
+stea253, B
+stea253, B, >
+
+stea253, C
+stea253, C, >
+
+stea253, D
+stea253, D, >
+
+stea253, :
+stea253, :, >
+
+stea253, c
+q2bdac, C, >
+
+//
+
+stea254, A
+stea254, A, >
+
+stea254, B
+stea254, B, >
+
+stea254, C
+stea254, C, >
+
+stea254, D
+stea254, D, >
+
+stea254, :
+stea254, :, >
+
+stea254, a
+q2bdca, A, >
+
+//
+
+stea255, A
+stea255, A, >
+
+stea255, B
+stea255, B, >
+
+stea255, C
+stea255, C, >
+
+stea255, D
+stea255, D, >
+
+stea255, :
+stea255, :, >
+
+stea255, d
+q2cabd, D, >
+
+//
+
+stea256, A
+stea256, A, >
+
+stea256, B
+stea256, B, >
+
+stea256, C
+stea256, C, >
+
+stea256, D
+stea256, D, >
+
+stea256, :
+stea256, :, >
+
+stea256, b
+q2cadb, B, >
+
+//
+
+stea257, A
+stea257, A, >
+
+stea257, B
+stea257, B, >
+
+stea257, C
+stea257, C, >
+
+stea257, D
+stea257, D, >
+
+stea257, :
+stea257, :, >
+
+stea257, d
+q2cbad, D, >
+
+//
+
+stea258, A
+stea258, A, >
+
+stea258, B
+stea258, B, >
+
+stea258, C
+stea258, C, >
+
+stea258, D
+stea258, D, >
+
+stea258, :
+stea258, :, >
+
+stea258, a
+q2cbda, A, >
+
+//
+
+stea259, A
+stea259, A, >
+
+stea259, B
+stea259, B, >
+
+stea259, C
+stea259, C, >
+
+stea259, D
+stea259, D, >
+
+stea259, :
+stea259, :, >
+
+stea259, b
+q2cdab, B, >
+
+//
+
+stea260, A
+stea260, A, >
+
+stea260, B
+stea260, B, >
+
+stea260, C
+stea260, C, >
+
+stea260, D
+stea260, D, >
+
+stea260, :
+stea260, :, >
+
+stea260, a
+q2cdba, A, >
+
+//
+
+stea261, A
+stea261, A, >
+
+stea261, B
+stea261, B, >
+
+stea261, C
+stea261, C, >
+
+stea261, D
+stea261, D, >
+
+stea261, :
+stea261, :, >
+
+stea261, c
+q2dabc, C, >
+
+//
+
+stea262, A
+stea262, A, >
+
+stea262, B
+stea262, B, >
+
+stea262, C
+stea262, C, >
+
+stea262, D
+stea262, D, >
+
+stea262, :
+stea262, :, >
+
+stea262, b
+q2dacb, B, >
+
+//
+
+stea263, A
+stea263, A, >
+
+stea263, B
+stea263, B, >
+
+stea263, C
+stea263, C, >
+
+stea263, D
+stea263, D, >
+
+stea263, :
+stea263, :, >
+
+stea263, c
+q2dbac, C, >
+
+//
+
+stea264, A
+stea264, A, >
+
+stea264, B
+stea264, B, >
+
+stea264, C
+stea264, C, >
+
+stea264, D
+stea264, D, >
+
+stea264, :
+stea264, :, >
+
+stea264, a
+q2dbca, A, >
+
+//
+
+stea265, A
+stea265, A, >
+
+stea265, B
+stea265, B, >
+
+stea265, C
+stea265, C, >
+
+stea265, D
+stea265, D, >
+
+stea265, :
+stea265, :, >
+
+stea265, b
+q2dcab, B, >
+
+//
+
+stea266, A
+stea266, A, >
+
+stea266, B
+stea266, B, >
+
+stea266, C
+stea266, C, >
+
+stea266, D
+stea266, D, >
+
+stea266, :
+stea266, :, >
+
+stea266, a
+q2dcba, A, >
+
+// nivel 8 -- merg la * finala
+
+q2abcd, a
+q2abcd, a, >
+
+q2abcd, b
+q2abcd, b, >
+
+q2abcd, c
+q2abcd, c, >
+
+q2abcd, d
+q2abcd, d, >
+
+q2abcd, :
+q2abcd, :, >
+
+q2abcd, *
+steafin2, *, >
+
+//
+
+q2abdc, a
+q2abdc, a, >
+
+q2abdc, b
+q2abdc, b, >
+
+q2abdc, c
+q2abdc, c, >
+
+q2abdc, d
+q2abdc, d, >
+
+q2abdc, :
+q2abdc, :, >
+
+q2abdc, *
+steafin2, *, >
+
+//
+
+q2acbd, a
+q2acbd, a, >
+
+q2acbd, b
+q2acbd, b, >
+
+q2acbd, c
+q2acbd, c, >
+
+q2acbd, d
+q2acbd, d, >
+
+q2acbd, :
+q2acbd, :, >
+
+q2acbd, *
+steafin2, *, >
+
+//
+
+q2acdb, a
+q2acdb, a, >
+
+q2acdb, b
+q2acdb, b, >
+
+q2acdb, c
+q2acdb, c, >
+
+q2acdb, d
+q2acdb, d, >
+
+q2acdb, :
+q2acdb, :, >
+
+q2acdb, *
+steafin2, *, >
+
+//
+
+q2adbc, a
+q2adbc, a, >
+
+q2adbc, b
+q2adbc, b, >
+
+q2adbc, c
+q2adbc, c, >
+
+q2adbc, d
+q2adbc, d, >
+
+q2adbc, :
+q2adbc, :, >
+
+q2adbc, *
+steafin2, *, >
+
+//
+
+q2adcb, a
+q2adcb, a, >
+
+q2adcb, b
+qadcb, b, >
+
+q2adcb, c
+q2adcb, c, >
+
+q2adcb, d
+q2adcb, d, >
+
+q2adcb, :
+q2adcb, :, >
+
+q2adcb, *
+steafin2, *, >
+
+//
+
+q2bacd, a
+q2bacd, a, >
+
+q2bacd, b
+q2bacd, b, >
+
+q2bacd, c
+q2bacd, c, >
+
+q2bacd, d
+q2bacd, d, >
+
+q2bacd, :
+q2bacd, :, >
+
+q2bacd, *
+steafin2, *, >
+
+//
+q2badc, a
+q2badc, a, >
+
+q2badc, b
+q2badc, b, >
+
+q2badc, c
+q2badc, c, >
+
+q2badc, d
+q2badc, d, >
+
+q2badc, :
+q2badc, :, >
+
+q2badc, *
+steafin2, *, >
+
+//
+
+q2bcad, a
+q2bcad, a, >
+
+q2bcad, b
+q2bcad, b, >
+
+q2bcad, c
+q2bcad, c, >
+
+q2bcad, d
+q2bcad, d, >
+
+q2bcad, :
+q2bcad, :, >
+
+q2bcad, *
+steafin2, *, >
+
+//
+
+q2bcda, a
+q2bcda, a, >
+
+q2bcda, b
+q2bcda, b, >
+
+q2bcda, c
+q2bcda, c, >
+
+q2bcda, d
+q2bcda, d, >
+
+q2bcda, :
+q2bcda, :, >
+
+q2bcda, *
+steafin2, *, >
+
+//
+
+q2bdac, a
+q2bdac, a, >
+
+q2bdac, b
+q2bdac, b, >
+
+q2bdac, c
+q2bdac, c, >
+
+q2bdac, d
+q2bdac, d, >
+
+q2bdac, :
+q2bdac, :, >
+
+q2bdac, *
+steafin2, *, >
+
+//
+
+q2bdca, a
+q2bdca, a, >
+
+q2bdca, b
+q2bdca, b, >
+
+q2bdca, c
+q2bdca, c, >
+
+q2bdca, d
+q2bdca, d, >
+
+q2bdca, :
+q2bdca, :, >
+
+q2bdca, *
+steafin2, *, >
+
+//
+
+q2cabd, a
+q2cabd, a, >
+
+q2cabd, b
+q2cabd, b, >
+
+q2cabd, c
+q2cabd, c, >
+
+q2cabd, d
+q2cabd, d, >
+
+q2cabd, :
+q2cabd, :, >
+
+q2cabd, *
+steafin2, *, >
+
+//
+
+q2cadb, a
+q2cadb, a, >
+
+q2cadb, b
+q2cadb, b, >
+
+q2cadb, c
+q2cadb, c, >
+
+q2cadb, d
+q2cadb, d, >
+
+q2cadb, :
+q2cadb, :, >
+
+q2cadb, *
+steafin2, *, >
+
+//
+
+q2cbad, a
+q2cbad, a, >
+
+q2cbad, b
+q2cbad, b, >
+
+q2cbad, c
+q2cbad, c, >
+
+q2cbad, d
+q2cbad, d, >
+
+q2cbad, :
+q2cbad, :, >
+
+q2cbad, *
+steafin2, *, >
+
+//
+
+q2cbda, a
+q2cbda, a, >
+
+q2cbda, b
+q2cbda, b, >
+
+q2cbda, c
+q2cbda, c, >
+
+q2cbda, d
+q2cbda, d, >
+
+q2cbda, :
+q2cbda, :, >
+
+q2cbda, *
+steafin2, *, >
+
+//
+
+q2cdab, a
+q2cdab, a, >
+
+q2cdab, b
+q2cdab, b, >
+
+q2cdab, c
+q2cdab, c, >
+
+q2cdab, d
+q2cdab, d, >
+
+q2cdab, :
+q2cdab, :, >
+
+q2cdab, *
+steafin2, *, >
+
+//
+
+q2cdba, a
+q2cdba, a, >
+
+q2cdba, b
+q2cdba, b, >
+
+q2cdba, c
+q2cdba, c, >
+
+q2cdba, d
+q2cdba, d, >
+
+q2cdba, :
+q2cdba, :, >
+
+q2cdba, *
+steafin2, *, >
+
+//
+
+q2dabc, a
+q2dabc, a, >
+
+q2dabc, b
+q2dabc, b, >
+
+q2dabc, c
+q2dabc, c, >
+
+q2dabc, d
+q2dabc, d, >
+
+q2dabc, :
+q2dabc, :, >
+
+q2dabc, *
+steafin2, *, >
+
+//
+
+q2dacb, a
+q2dacb, a, >
+
+q2dacb, b
+q2dacb, b, >
+
+q2dacb, c
+q2dacb, c, >
+
+q2dacb, d
+q2dacb, d, >
+
+q2dacb, :
+q2dacb, :, >
+
+q2dacb, *
+steafin2, *, >
+
+//
+
+q2dbac, a
+q2dbac, a, >
+
+q2dbac, b
+q2dbac, b, >
+
+q2dbac, c
+q2dbac, c, >
+
+q2dbac, d
+q2dbac, d, >
+
+q2dbac, :
+q2dbac, :, >
+
+q2dbac, *
+steafin2, *, >
+
+//
+
+q2dbca, a
+q2dbca, a, >
+
+q2dbca, b
+q2dbca, b, >
+
+q2dbca, c
+q2dbca, c, >
+
+q2dbca, d
+q2dbca, d, >
+
+q2dbca, :
+q2dbca, :, >
+
+q2dbca, *
+steafin2, *, >
+
+//
+
+q2dcab, a
+q2dcab, a, >
+
+q2dcab, b
+q2dcab, b, >
+
+q2dcab, c
+q2dcab, c, >
+
+q2dcab, d
+q2dcab, d, >
+
+q2dcab, :
+q2dcab, :, >
+
+q2dcab, *
+steafin2, *, >
+
+//
+
+q2dcba, a
+q2dcba, a, >
+
+q2dcba, b
+q2dcba, b, >
+
+q2dcba, c
+q2dcba, c, >
+
+q2dcba, d
+q2dcba, d, >
+
+q2dcba, :
+q2dcba, :, >
+
+q2dcba, *
+steafin2, *, >
+
+// 
+
+
+steafin2, _
+back3, _, <
+
+back3, a
+back3, a, <
+
+back3, b
+back3, b, <
+
+back3, c
+back3, c, <
+
+back3, d
+back3, d, <
+
+back3, A
+back3, A, <
+
+back3, B
+back3, B, <
+
+back3, C
+back3, C, <
+
+back3, D
+back3, D, <
+
+back3, :
+back3, :, <
+
+back3, *
+back3, *, <
+
+back3, _
+restart3, _, >
+
+
+// coloana - 3:
+
+restart3, *
+stea111, *, >
+
+// s a oprit la prima steluta 
+
+stea111, A
+stea111, A, >
+
+stea111, B
+stea111, B, >
+
+stea111, C
+stea111, C, >
+
+stea111, D
+stea111, D, >
+
+stea111, :
+stea111, :, >
+
+stea111, a
+q3a, A, >
+
+stea111, b
+q3b, B, >
+
+stea111, c
+q3c, C, >
+
+stea111, d
+q3d, D, >
+
+// nivel 2
+
+q3a, a
+q3a, a, >
+
+q3a, b
+q3a, b, >
+
+q3a, c
+q3a, c, >
+
+q3a, d
+q3a, d, >
+
+q3a, :
+q3a, :, >
+
+q3a, *
+stea321, *, >
+
+//
+
+q3b, a
+q3b, a, >
+
+q3b, b
+q3b, b, >
+
+q3b, c
+q3b, c, >
+
+q3b, d
+q3b, d, >
+
+q3b, :
+q3b, :, >
+
+q3b, *
+stea322, *, >
+
+//
+
+q3c, a
+q3c, a, >
+
+q3c, b
+q3c, b, >
+
+q3c, c
+q3c, c, >
+
+q3c, d
+q3c, d, >
+
+q3c, :
+q3c, :, >
+
+q3c, *
+stea323, *, >
+
+//
+
+q3d, a
+q3d, a, >
+
+q3d, b
+q3d, b, >
+
+q3d, c
+q3d, c, >
+
+q3d, d
+q3d, d, >
+
+q3d, :
+q3d, :, >
+
+q3d, *
+stea324, *, >
+
+// nivel 3
+
+stea321, A
+stea321, A, >
+
+stea321, B
+stea321, B, >
+
+stea321, C
+stea321, C, >
+
+stea321, D
+stea321, D, >
+
+stea321, :
+stea321, :, >
+
+stea321, b
+q3ab, B, >
+
+stea321, c
+q3ac, C, >
+
+stea321, d
+q3ad, D, >
+
+//
+
+stea322, A
+stea322, A, >
+
+stea322, B
+stea322, B, >
+
+stea322, C
+stea322, C, >
+
+stea322, D
+stea322, D, >
+
+stea322, :
+stea322, :, >
+
+stea322, a
+q3ba, A, >
+
+stea322, c
+q3bc, C, >
+
+stea322, d
+q3bd, D, >
+
+//
+
+stea323, A
+stea323, A, >
+
+stea323, B
+stea323, B, >
+
+stea323, C
+stea323, C, >
+
+stea323, D
+stea323, D, >
+
+stea323, :
+stea323, :, >
+
+stea323, a
+q3ca, A, >
+
+stea323, b
+q3cb, B, >
+
+stea323, d
+q3cd, D, >
+
+//
+
+stea324, A
+stea324, A, >
+
+stea324, B
+stea324, B, >
+
+stea324, C
+stea324, C, >
+
+stea324, D
+stea324, D, >
+
+stea324, :
+stea324, :, >
+
+stea324, a
+q3da, A, >
+
+stea324, b
+q3db, B, >
+
+stea324, c
+q3dc, C, >
+
+//
+
+q3ab, a
+q3ab, a, >
+
+q3ab, b
+q3ab, b, >
+
+q3ab, c
+q3ab, c, >
+
+q3ab, d
+q3ab, d, >
+
+q3ab, :
+q3ab, :, >
+
+q3ab, *
+stea331, *, >
+
+//
+
+q3ac, a
+q3ac, a, >
+
+q3ac, b
+q3ac, b, >
+
+q3ac, c
+q3ac, c, >
+
+q3ac, d
+q3ac, d, >
+
+q3ac, :
+q3ac, :, >
+
+q3ac, *
+stea332, *, >
+
+//
+
+q3ad, a
+q3ad, a, >
+
+q3ad, b
+q3ad, b, >
+
+q3ad, c
+q3ad, c, >
+
+q3ad, d
+q3ad, d, >
+
+q3ad, :
+q3ad, :, >
+
+q3ad, *
+stea333, *, >
+
+//
+
+q3ba, a
+q3ba, a, >
+
+q3ba, b
+q3ba, b, >
+
+q3ba, c
+q3ba, c, >
+
+q3ba, d
+q3ba, d, >
+
+q3ba, :
+q3ba, :, >
+
+q3ba, *
+stea334, *, >
+
+//
+
+q3bc, a
+q3bc, a, >
+
+q3bc, b
+q3bc, b, >
+
+q3bc, c
+q3bc, c, >
+
+q3bc, d
+q3bc, d, >
+
+q3bc, :
+q3bc, :, >
+
+q3bc, *
+stea335, *, >
+
+//
+
+q3bd, a
+q3bd, a, >
+
+q3bd, b
+q3bd, b, >
+
+q3bd, c
+q3bd, c, >
+
+q3bd, d
+q3bd, d, >
+
+q3bd, :
+q3bd, :, >
+
+q3bd, *
+stea336, *, >
+
+//
+
+q3ca, a
+q3ca, a, >
+
+q3ca, b
+q3ca, b, >
+
+q3ca, c
+q3ca, c, >
+
+q3ca, d
+q3ca, d, >
+
+q3ca, :
+q3ca, :, >
+
+q3ca, *
+stea337, *, >
+
+//
+
+q3cb, a
+q3cb, a, >
+
+q3cb, b
+q3cb, b, >
+
+q3cb, c
+q3cb, c, >
+
+q3cb, d
+q3cb, d, >
+
+q3cb, :
+q3cb, :, >
+
+q3cb, *
+stea338, *, >
+
+//
+q3cd, a
+q3cd, a, >
+
+q3cd, b
+q3cd, b, >
+
+q3cd, c
+q3cd, c, >
+
+q3cd, d
+q3cd, d, >
+
+q3cd, :
+q3cd, :, >
+
+q3cd, *
+stea339, *, >
+
+//
+
+q3da, a
+q3da, a, >
+
+q3da, b
+q3da, b, >
+
+q3da, c
+q3da, c, >
+
+q3da, d
+q3da, d, >
+
+q3da, :
+q3da, :, >
+
+q3da, *
+stea340, *, >
+
+//
+
+q3db, a
+q3db, a, >
+
+q3db, b
+q3db, b, >
+
+q3db, c
+q3db, c, >
+
+q3db, d
+q3db, d, >
+
+q3db, :
+q3db, :, >
+
+q3db, *
+stea341, *, >
+
+//
+
+q3dc, a
+q3dc, a, >
+
+q3dc, b
+q3dc, b, >
+
+q3dc, c
+q3dc, c, >
+
+q3dc, d
+q3dc, d, >
+
+q3dc, :
+q3dc, :, >
+
+q3dc, *
+stea342, *, >
+
+// nivel 5
+
+stea331, A
+stea331, A, >
+
+stea331, B
+stea331, B, >
+
+stea331, C
+stea331, C, >
+
+stea331, D
+stea331, D, >
+
+stea331, :
+stea331, :, >
+
+stea331, c
+q3abc, C, >
+
+stea331, d
+q3abd, D, >
+
+//
+
+stea332, A
+stea332, A, >
+
+stea332, B
+stea332, B, >
+
+stea332, C
+stea332, C, >
+
+stea332, D
+stea332, D, >
+
+stea332, :
+stea332, :, >
+
+stea332, b
+q3acb, B, >
+
+stea332, d
+q3acd, D, >
+
+//
+
+stea333, A
+stea333, A, >
+
+stea333, B
+stea333, B, >
+
+stea333, C
+stea333, C, >
+
+stea333, D
+stea333, D, >
+
+stea333, :
+stea333, :, >
+
+stea333, b
+q3adb, B, >
+
+stea333, c
+q3adc, C, >
+
+//
+
+stea334, A
+stea334, A, >
+
+stea334, B
+stea334, B, >
+
+stea334, C
+stea334, C, >
+
+stea334, D
+stea334, D, >
+
+stea334, :
+stea334, :, >
+
+stea334, c
+q3bac, C, >
+
+stea334, d
+q3bad, D, >
+
+//
+
+stea335, A
+stea335, A, >
+
+stea335, B
+stea335, B, >
+
+stea335, C
+stea335, C, >
+
+stea335, D
+stea335, D, >
+
+stea335, :
+stea335, :, >
+
+stea335, a
+q3bca, A, >
+
+stea335, d
+q3bcd, D, >
+
+//
+
+stea336, A
+stea336, A, >
+
+stea336, B
+stea336, B, >
+
+stea336, C
+stea336, C, >
+
+stea336, D
+stea336, D, >
+
+stea336, :
+stea336, :, >
+
+stea336, a
+q3bda, A, >
+
+stea336, c
+q3bdc, C, >
+
+//
+
+stea337, A
+stea337, A, >
+
+stea337, B
+stea337, B, >
+
+stea337, C
+stea337, C, >
+
+stea337, D
+stea337, D, >
+
+stea337, :
+stea337, :, >
+
+stea337, b
+q3cab, B, >
+
+stea337, d
+q3cad, D, >
+
+//
+
+stea338, A
+stea338, A, >
+
+stea338, B
+stea338, B, >
+
+stea338, C
+stea338, C, >
+
+stea338, D
+stea338, D, >
+
+stea338, :
+stea338, :, >
+
+stea338, a
+q3cba, A, >
+
+stea338, d
+q3cbd, D, >
+
+//
+
+stea339, A
+stea339, A, >
+
+stea339, B
+stea339, B, >
+
+stea339, C
+stea339, C, >
+
+stea339, D
+stea339, D, >
+
+stea339, :
+stea339, :, >
+
+stea339, a
+q3cda, A, >
+
+stea339, b
+q3cdb, B, >
+
+//
+
+stea340, A
+stea340, A, >
+
+stea340, B
+stea340, B, >
+
+stea340, C
+stea340, C, >
+
+stea340, D
+stea340, D, >
+
+stea340, :
+stea340, :, >
+
+stea340, b
+q3dab, B, >
+
+stea340, c
+q3dac, C, >
+
+//
+
+stea341, A
+stea341, A, >
+
+stea341, B
+stea341, B, >
+
+stea341, C
+stea341, C, >
+
+stea341, D
+stea341, D, >
+
+stea341, :
+stea341, :, >
+
+stea341, a
+q3bda, A, >
+
+stea341, c
+q3dbc, C, >
+
+//
+
+stea342, A
+stea342, A, >
+
+stea342, B
+stea342, B, >
+
+stea342, C
+stea342, C, >
+
+stea342, D
+stea342, D, >
+
+stea342, :
+stea342, :, >
+
+stea342, a
+q3dca, A, >
+
+stea342, b
+q3dcb, B, >
+
+// nivel 6 vreau sa ajung la urm *
+
+q3abc, a
+q3abc, a, >
+
+q3abc, b
+q3abc, b, >
+
+q3abc, c
+q3abc, c, >
+
+q3abc, d
+q3abc, d, >
+
+q3abc, :
+q3abc, :, >
+
+q3abc, *
+stea343, *, >
+
+//
+
+q3abd, a
+q3abd, a, >
+
+q3abd, b
+q3abd, b, >
+
+q3abd, c
+q3abd, c, >
+
+q3abd, d
+q3abd, d, >
+
+q3abd, :
+q3abd, :, >
+
+q3abd, *
+stea344, *, >
+
+//
+
+q3acb, a
+q3acb, a, >
+
+q3acb, b
+q3acb, b, >
+
+q3acb, c
+q3acb, c, >
+
+q3acb, d
+q3acb, d, >
+
+q3acb, :
+q3acb, :, >
+
+q3acb, *
+stea345, *, >
+
+//
+
+q3acd, a
+q3acd, a, >
+
+q3acd, b
+q3acd, b, >
+
+q3acd, c
+q3acd, c, >
+
+q3acd, d
+q3acd, d, >
+
+q3acd, :
+q3acd, :, >
+
+q3acd, *
+stea346, *, >
+
+//
+
+q3adb, a
+q3adb, a, >
+
+q3adb, b
+q3adb, b, >
+
+q3adb, c
+q3adb, c, >
+
+q3adb, d
+q3adb, d, >
+
+q3adb, :
+q3adb, :, >
+
+q3adb, *
+stea347, *, >
+
+//
+
+q3adc, a
+q3adc, a, >
+
+q3adc, b
+q3adc, b, >
+
+q3adc, c
+q3adc, c, >
+
+q3adc, d
+q3adc, d, >
+
+q3adc, :
+q3adc, :, >
+
+q3adc, *
+stea348, *, >
+
+//
+
+q3bac, a
+q3bac, a, >
+
+q3bac, b
+q3bac, b, >
+
+q3bac, c
+q3bac, c, >
+
+q3bac, d
+q3bac, d, >
+
+q3bac, :
+q3bac, :, >
+
+q3bac, *
+stea349, *, >
+
+//
+
+q3bad, a
+q3bad, a, >
+
+q3bad, b
+q3bad, b, >
+
+q3bad, c
+q3bad, c, >
+
+q3bad, d
+q3bad, d, >
+
+q3bad, :
+q3bad, :, >
+
+q3bad, *
+stea350, *, >
+
+//
+
+q3bca, a
+q3bca, a, >
+
+q3bca, b
+q3bca, b, >
+
+q3bca, c
+q3bca, c, >
+
+q3bca, d
+q3bca, d, >
+
+q3bca, :
+q3bca, :, >
+
+q3bca, *
+stea351, *, >
+
+//
+
+q3bcd, a
+q3bcd, a, >
+
+q3bcd, b
+q3bcd, b, >
+
+q3bcd, c
+q3bcd, c, >
+
+q3bcd, d
+q3bcd, d, >
+
+q3bcd, :
+q3bcd, :, >
+
+q3bcd, *
+stea352, *, >
+
+//
+
+q3bda, a
+q3bda, a, >
+
+q3bda, b
+q3bda, b, >
+
+q3bda, c
+q3bda, c, >
+
+q3bda, d
+q3bda, d, >
+
+q3bda, :
+q3bda, :, >
+
+q3bda, *
+stea353, *, >
+
+//
+
+q3bdc, a
+q3bdc, a, >
+
+q3bdc, b
+q3bdc, b, >
+
+q3bdc, c
+q3bdc, c, >
+
+q3bdc, d
+q3bdc, d, >
+
+q3bdc, :
+q3bdc, :, >
+
+q3bdc, *
+stea354, *, >
+
+//
+
+q3cab, a
+q3cab, a, >
+
+q3cab, b
+q3cab, b, >
+
+q3cab, c
+q3cab, c, >
+
+q3cab, d
+q3cab, d, >
+
+q3cab, :
+q3cab, :, >
+
+q3cab, *
+stea355, *, >
+
+//
+
+q3cad, a
+q3cad, a, >
+
+q3cad, b
+q3cad, b, >
+
+q3cad, c
+q3cad, c, >
+
+q3cad, d
+q3cad, d, >
+
+q3cad, :
+q3cad, :, >
+
+q3cad, *
+stea356, *, >
+
+//
+
+q3cba, a
+q3cba, a, >
+
+q3cba, b
+q3cba, b, >
+
+q3cba, c
+q3cba, c, >
+
+q3cba, d
+q3cba, d, >
+
+q3cba, :
+q3cba, :, >
+
+q3cba, *
+stea357, *, >
+
+//
+
+q3cbd, a
+q3cbd, a, >
+
+q3cbd, b
+q3cbd, b, >
+
+q3cbd, c
+q3cbd, c, >
+
+q3cbd, d
+q3cbd, d, >
+
+q3cbd, :
+q3cbd, :, >
+
+q3cbd, *
+stea358, *, >
+
+//
+
+q3cda, a
+q3cda, a, >
+
+q3cda, b
+q3cda, b, >
+
+q3cda, c
+q3cda, c, >
+
+q3cda, d
+q3cda, d, >
+
+q3cda, :
+q3cda, :, >
+
+q3cda, *
+stea359, *, >
+
+//
+
+q3cdb, a
+q3cdb, a, >
+
+q3cdb, b
+q3cdb, b, >
+
+q3cdb, c
+q3cdb, c, >
+
+q3cdb, d
+q3cdb, d, >
+
+q3cdb, :
+q3cdb, :, >
+
+q3cdb, *
+stea360, *, >
+
+//
+
+q3dab, a
+q3dab, a, >
+
+q3dab, b
+q3dab, b, >
+
+q3dab, c
+q3dab, c, >
+
+q3dab, d
+q3dab, d, >
+
+q3dab, :
+q3dab, :, >
+
+q3dab, *
+stea361, *, >
+
+//
+
+q3dac, a
+q3dac, a, >
+
+q3dac, b
+q3dac, b, >
+
+q3dac, c
+q3dac, c, >
+
+q3dac, d
+q3dac, d, >
+
+q3dac, :
+q3dac, :, >
+
+q3dac, *
+stea362, *, >
+
+//
+
+q3dba, a
+q3dba, a, >
+
+q3dba, b
+q3dba, b, >
+
+q3dba, c
+q3dba, c, >
+
+q3dba, d
+q3dba, d, >
+
+q3dba, :
+q3dba, :, >
+
+q3dba, *
+stea363, *, >
+
+//
+
+q3dbc, a
+q3dbc, a, >
+
+q3dbc, b
+q3dbc, b, >
+
+q3dbc, c
+q3dbc, c, >
+
+q3dbc, d
+q3dbc, d, >
+
+q3dbc, :
+q3dbc, :, >
+
+q3dbc, *
+stea364, *, >
+
+//
+
+q3dca, a
+q3dca, a, >
+
+q3dca, b
+q3dca, b, >
+
+q3dca, c
+q3dca, c, >
+
+q3dca, d
+q3dca, d, >
+
+q3dca, :
+q3dca, :, >
+
+q3dca, *
+stea365, *, >
+
+//
+
+q3dcb, a
+q3dcb, a, >
+
+q3dcb, b
+q3dcb, b, >
+
+q3dcb, c
+q3dcb, c, >
+
+q3dcb, d
+q3dcb, d, >
+
+q3dcb, :
+q3dcb, :, >
+
+q3dcb, *
+stea366, *, >
+
+// nivel 7 -ignor literele mari
+
+stea343, A
+stea343, A, >
+
+stea343, B
+stea343, B, >
+
+stea343, C
+stea343, C, >
+
+stea343, D
+stea343, D, >
+
+stea343, :
+stea343, :, >
+
+stea343, d
+q3abcd, D, >
+
+//
+
+stea344, A
+stea344, A, >
+
+stea344, B
+stea344, B, >
+
+stea344, C
+stea344, C, >
+
+stea344, D
+stea344, D, >
+
+stea344, :
+stea344, :, >
+
+stea344, c
+q3abdc, C, >
+
+//
+
+stea345, A
+stea345, A, >
+
+stea345, B
+stea345, B, >
+
+stea345, C
+stea345, C, >
+
+stea345, D
+stea345, D, >
+
+stea345, :
+stea345, :, >
+
+stea345, d
+q3acbd, D, >
+
+//
+
+stea346, A
+stea346, A, >
+
+stea346, B
+stea346, B, >
+
+stea346, C
+stea346, C, >
+
+stea346, D
+stea346, D, >
+
+stea346, :
+stea346, :, >
+
+stea346, b
+q3acdb, B, >
+
+//
+
+stea347, A
+stea347, A, >
+
+stea347, B
+stea347, B, >
+
+stea347, C
+stea347, C, >
+
+stea347, D
+stea347, D, >
+
+stea347, :
+stea347, :, >
+
+stea347, c
+q3adbc, C, >
+
+//
+
+stea348, A
+stea348, A, >
+
+stea348, B
+stea348, B, >
+
+stea348, C
+stea348, C, >
+
+stea348, D
+stea348, D, >
+
+stea348, :
+stea348, :, >
+
+stea348, b
+q3adcb, B, >
+
+//
+
+stea349, A
+stea349, A, >
+
+stea349, B
+stea349, B, >
+
+stea349, C
+stea349, C, >
+
+stea349, D
+stea349, D, >
+
+stea349, :
+stea349, :, >
+
+stea349, d
+q3bacd, D, >
+
+//
+
+stea350, A
+stea350, A, >
+
+stea350, B
+stea350, B, >
+
+stea350, C
+stea350, C, >
+
+stea350, D
+stea350, D, >
+
+stea350, :
+stea350, :, >
+
+stea350, c
+q3badc, C, >
+
+//
+
+stea351, A
+stea351, A, >
+
+stea351, B
+stea351, B, >
+
+stea351, C
+stea351, C, >
+
+stea351, D
+stea351, D, >
+
+stea351, :
+stea351, :, >
+
+stea351, d
+q3bcad, D, >
+
+//
+
+stea352, A
+stea352, A, >
+
+stea352, B
+stea352, B, >
+
+stea352, C
+stea352, C, >
+
+stea352, D
+stea352, D, >
+
+stea352, :
+stea352, :, >
+
+stea352, a
+q3bcda, A, >
+
+//
+
+stea353, A
+stea353, A, >
+
+stea353, B
+stea353, B, >
+
+stea353, C
+stea353, C, >
+
+stea353, D
+stea353, D, >
+
+stea353, :
+stea353, :, >
+
+stea353, c
+q3bdac, C, >
+
+//
+
+stea354, A
+stea354, A, >
+
+stea354, B
+stea354, B, >
+
+stea354, C
+stea354, C, >
+
+stea354, D
+stea354, D, >
+
+stea354, :
+stea354, :, >
+
+stea354, a
+q3bdca, A, >
+
+//
+
+stea355, A
+stea355, A, >
+
+stea355, B
+stea355, B, >
+
+stea355, C
+stea355, C, >
+
+stea355, D
+stea355, D, >
+
+stea355, :
+stea355, :, >
+
+stea355, d
+q3cabd, D, >
+
+//
+
+stea356, A
+stea356, A, >
+
+stea356, B
+stea356, B, >
+
+stea356, C
+stea356, C, >
+
+stea356, D
+stea356, D, >
+
+stea356, :
+stea356, :, >
+
+stea356, b
+q3cadb, B, >
+
+//
+
+stea357, A
+stea357, A, >
+
+stea357, B
+stea357, B, >
+
+stea357, C
+stea357, C, >
+
+stea357, D
+stea357, D, >
+
+stea357, :
+stea357, :, >
+
+stea357, d
+q3cbad, D, >
+
+//
+
+stea358, A
+stea358, A, >
+
+stea358, B
+stea358, B, >
+
+stea358, C
+stea358, C, >
+
+stea358, D
+stea358, D, >
+
+stea358, :
+stea358, :, >
+
+stea358, a
+q3cbda, A, >
+
+//
+
+stea359, A
+stea359, A, >
+
+stea359, B
+stea359, B, >
+
+stea359, C
+stea359, C, >
+
+stea359, D
+stea359, D, >
+
+stea359, :
+stea359, :, >
+
+stea359, b
+q3cdab, B, >
+
+//
+
+stea360, A
+stea360, A, >
+
+stea360, B
+stea360, B, >
+
+stea360, C
+stea360, C, >
+
+stea360, D
+stea360, D, >
+
+stea360, :
+stea360, :, >
+
+stea360, a
+q3cdba, A, >
+
+//
+
+stea361, A
+stea361, A, >
+
+stea361, B
+stea361, B, >
+
+stea361, C
+stea361, C, >
+
+stea361, D
+stea361, D, >
+
+stea361, :
+stea361, :, >
+
+stea361, c
+q3dabc, C, >
+
+//
+
+stea362, A
+stea362, A, >
+
+stea362, B
+stea362, B, >
+
+stea362, C
+stea362, C, >
+
+stea362, D
+stea362, D, >
+
+stea362, :
+stea362, :, >
+
+stea362, b
+q3dacb, B, >
+
+//
+
+stea363, A
+stea363, A, >
+
+stea363, B
+stea363, B, >
+
+stea363, C
+stea363, C, >
+
+stea363, D
+stea363, D, >
+
+stea363, :
+stea363, :, >
+
+stea363, c
+q3dbac, C, >
+
+//
+
+stea364, A
+stea364, A, >
+
+stea364, B
+stea364, B, >
+
+stea364, C
+stea364, C, >
+
+stea364, D
+stea364, D, >
+
+stea364, :
+stea364, :, >
+
+stea364, a
+q3dbca, A, >
+
+//
+
+stea365, A
+stea365, A, >
+
+stea365, B
+stea365, B, >
+
+stea365, C
+stea365, C, >
+
+stea365, D
+stea365, D, >
+
+stea365, :
+stea365, :, >
+
+stea365, b
+q3dcab, B, >
+
+//
+
+stea366, A
+stea366, A, >
+
+stea366, B
+stea366, B, >
+
+stea366, C
+stea366, C, >
+
+stea366, D
+stea366, D, >
+
+stea366, :
+stea366, :, >
+
+stea366, a
+q3dcba, A, >
+
+// nivel 8 -- merg la * finala
+
+q3abcd, a
+q3abcd, a, >
+
+q3abcd, b
+q3abcd, b, >
+
+q3abcd, c
+q3abcd, c, >
+
+q3abcd, d
+q3abcd, d, >
+
+q3abcd, :
+q3abcd, :, >
+
+q3abcd, *
+steafin3, *, >
+
+//
+
+q3abdc, a
+q3abdc, a, >
+
+q3abdc, b
+q3abdc, b, >
+
+q3abdc, c
+q3abdc, c, >
+
+q3abdc, d
+q3abdc, d, >
+
+q3abdc, :
+q3abdc, :, >
+
+q3abdc, *
+steafin3, *, >
+
+//
+
+q3acbd, a
+q3acbd, a, >
+
+q3acbd, b
+q3acbd, b, >
+
+q3acbd, c
+q3acbd, c, >
+
+q3acbd, d
+q3acbd, d, >
+
+q3acbd, :
+q3acbd, :, >
+
+q3acbd, *
+steafin3, *, >
+
+//
+
+q3acdb, a
+q3acdb, a, >
+
+q3acdb, b
+q3acdb, b, >
+
+q3acdb, c
+q3acdb, c, >
+
+q3acdb, d
+q3acdb, d, >
+
+q3acdb, :
+q3acdb, :, >
+
+q3acdb, *
+steafin3, *, >
+
+//
+
+q3adbc, a
+q3adbc, a, >
+
+q3adbc, b
+q3adbc, b, >
+
+q3adbc, c
+q3adbc, c, >
+
+q3adbc, d
+q3adbc, d, >
+
+q3adbc, :
+q3adbc, :, >
+
+q3adbc, *
+steafin3, *, >
+
+//
+
+q3adcb, a
+q3adcb, a, >
+
+q3adcb, b
+q3adcb, b, >
+
+q3adcb, c
+q3adcb, c, >
+
+q3adcb, d
+q3adcb, d, >
+
+q3adcb, :
+q3adcb, :, >
+
+q3adcb, *
+steafin3, *, >
+
+//
+
+q3bacd, a
+q3bacd, a, >
+
+q3bacd, b
+q3bacd, b, >
+
+q3bacd, c
+q3bacd, c, >
+
+q3bacd, d
+q3bacd, d, >
+
+q3bacd, :
+q3bacd, :, >
+
+q3bacd, *
+steafin3, *, >
+
+//
+
+q3badc, a
+q3badc, a, >
+
+q3badc, b
+q3badc, b, >
+
+q3badc, c
+q3badc, c, >
+
+q3badc, d
+q3badc, d, >
+
+q3badc, :
+q3badc, :, >
+
+q3badc, *
+steafin3, *, >
+
+//
+
+q3bcad, a
+q3bcad, a, >
+
+q3bcad, b
+q3bcad, b, >
+
+q3bcad, c
+q3bcad, c, >
+
+q3bcad, d
+q3bcad, d, >
+
+q3bcad, :
+q3bcad, :, >
+
+q3bcad, *
+steafin3, *, >
+
+//
+q3bcda, a
+q3bcda, a, >
+
+q3bcda, b
+q3bcda, b, >
+
+q3bcda, c
+q3bcda, c, >
+
+q3bcda, d
+q3bcda, d, >
+
+q3bcda, :
+q3bcda, :, >
+
+q3bcda, *
+steafin3, *, >
+
+//
+
+q3bdac, a
+q3bdac, a, >
+
+q3bdac, b
+q3bdac, b, >
+
+q3bdac, c
+q3bdac, c, >
+
+q3bdac, d
+q3bdac, d, >
+
+q3bdac, :
+q3bdac, :, >
+
+q3bdac, *
+steafin3, *, >
+
+//
+
+q3bdca, a
+q3bdca, a, >
+
+q3bdca, b
+q3bdca, b, >
+
+q3bdca, c
+q3bdca, c, >
+
+q3bdca, d
+q3bdca, d, >
+
+q3bdca, :
+q3bdca, :, >
+
+q3bdca, *
+steafin3, *, >
+
+//
+
+q3cabd, a
+q3cabd, a, >
+
+q3cabd, b
+q3cabd, b, >
+
+q3cabd, c
+q3cabd, c, >
+
+q3cabd, d
+q3cabd, d, >
+
+q3cabd, :
+q3cabd, :, >
+
+q3cabd, *
+steafin3, *, >
+
+//
+
+q3cadb, a
+q3cadb, a, >
+
+q3cadb, b
+q3cadb, b, >
+
+q3cadb, c
+q3cadb, c, >
+
+q3cadb, d
+q3cadb, d, >
+
+q3cadb, :
+q3cadb, :, >
+
+q3cadb, *
+steafin3, *, >
+
+//
+
+q3cbad, a
+q3cbad, a, >
+
+q3cbad, b
+q3cbad, b, >
+
+q3cbad, c
+q3cbad, c, >
+
+q3cbad, d
+q3cbad, d, >
+
+q3cbad, :
+q3cbad, :, >
+
+q3cbad, *
+steafin3, *, >
+
+//
+
+q3cbda, a
+q3cbda, a, >
+
+q3cbda, b
+q3cbda, b, >
+
+q3cbda, c
+q3cbda, c, >
+
+q3cbda, d
+q3cbda, d, >
+
+q3cbda, :
+q3cbda, :, >
+
+q3cbda, *
+steafin3, *, >
+
+//
+
+q3cdab, a
+q3cdab, a, >
+
+q3cdab, b
+q3cdab, b, >
+
+q3cdab, c
+q3cdab, c, >
+
+q3cdab, d
+q3cdab, d, >
+
+q3cdab, :
+q3cdab, :, >
+
+q3cdab, *
+steafin3, *, >
+
+//
+
+q3cdba, a
+q3cdba, a, >
+
+q3cdba, b
+q3cdba, b, >
+
+q3cdba, c
+q3cdba, c, >
+
+q3cdba, d
+q3cdba, d, >
+
+q3cdba, :
+q3cdba, :, >
+
+q3cdba, *
+steafin3, *, >
+
+//
+
+q3dabc, a
+q3dabc, a, >
+
+q3dabc, b
+q3dabc, b, >
+
+q3dabc, c
+q3dabc, c, >
+
+q3dabc, d
+q3dabc, d, >
+
+q3dabc, :
+q3dabc, :, >
+
+q3dabc, *
+steafin3, *, >
+
+//
+
+q3dacb, a
+q3dacb, a, >
+
+q3dacb, b
+q3dacb, b, >
+
+q3dacb, c
+q3dacb, c, >
+
+q3dacb, d
+q3dacb, d, >
+
+q3dacb, :
+q3dacb, :, >
+
+q3dacb, *
+steafin3, *, >
+
+//
+
+q3dbac, a
+q3dbac, a, >
+
+q3dbac, b
+q3dbac, b, >
+
+q3dbac, c
+q3dbac, c, >
+
+q3dbac, d
+q3dbac, d, >
+
+q3dbac, :
+q3dbac, :, >
+
+q3dbac, *
+steafin3, *, >
+
+//
+
+q3dbca, a
+q3dbca, a, >
+
+q3dbca, b
+q3dbca, b, >
+
+q3dbca, c
+q3dbca, c, >
+
+q3dbca, d
+q3dbca, d, >
+
+q3dbca, :
+q3dbca, :, >
+
+q3dbca, *
+steafin3, *, >
+
+//
+
+q3dcab, a
+q3dcab, a, >
+
+q3dcab, b
+q3dcab, b, >
+
+q3dcab, c
+q3dcab, c, >
+
+q3dcab, d
+q3dcab, d, >
+
+q3dcab, :
+q3dcab, :, >
+
+q3dcab, *
+steafin3, *, >
+
+//
+
+q3dcba, a
+q3dcba, a, >
+
+q3dcba, b
+q3dcba, b, >
+
+q3dcba, c
+q3dcba, c, >
+
+q3dcba, d
+q3dcba, d, >
+
+q3dcba, :
+q3dcba, :, >
+
+q3dcba, *
+steafin3, *, >
+
+//
+
+steafin3, _
+back4, _, <
+
+back4, a
+back4, a, <
+
+back4, b
+back4, b, <
+
+back4, c
+back4, c, <
+
+back4, d
+back4, d, <
+
+back4, A
+back4, A, <
+
+back4, B
+back4, B, <
+
+back4, C
+back4, C, <
+
+back4, D
+back4, D, <
+
+back4, :
+back4, :, <
+
+back4, *
+back4, *, <
+
+back4, _
+restart4, _, >
+
+// coloana - 4:
+
+restart4, *
+stea1111, *, >
+
+//
+
+stea1111, A
+stea1111, A, >
+
+stea1111, B
+stea1111, B, >
+
+stea1111, C
+stea1111, C, >
+
+stea1111, D
+stea1111, D, >
+
+stea1111, :
+stea1111, :, >
+
+stea1111, a
+q4a, A, >
+
+stea1111, b
+q4b, B, >
+
+stea1111, c
+q4c, C, >
+
+stea1111, d
+q4d, D, >
+
+// nivel 2
+
+q4a, a
+q4a, a, >
+
+q4a, b
+q4a, b, >
+
+q4a, c
+q4a, c, >
+
+q4a, d
+q4a, d, >
+
+q4a, :
+q4a, :, >
+
+q4a, *
+stea421, *, >
+
+//
+
+q4b, a
+q4b, a, >
+
+q4b, b
+q4b, b, >
+
+q4b, c
+q4b, c, >
+
+q4b, d
+q4b, d, >
+
+q4b, :
+q4b, :, >
+
+q4b, *
+stea422, *, >
+
+//
+
+q4c, a
+q4c, a, >
+
+q4c, b
+q4c, b, >
+
+q4c, c
+q4c, c, >
+
+q4c, d
+q4c, d, >
+
+q4c, :
+q4c, :, >
+
+q4c, *
+stea423, *, >
+
+//
+
+q4d, a
+q4d, a, >
+
+q4d, b
+q4d, b, >
+
+q4d, c
+q4d, c, >
+
+q4d, d
+q4d, d, >
+
+q4d, :
+q4d, :, >
+
+q4d, *
+stea424, *, >
+
+// nivel 3 
+
+stea421, A
+stea421, A, >
+
+stea421, B
+stea421, B, >
+
+stea421, C
+stea421, C, >
+
+stea421, D
+stea421, D, >
+
+stea421, :
+stea421, :, >
+
+stea421, b
+q4ab, B, >
+
+stea421, c
+q4ac, C, >
+
+stea421, d
+q4ad, D, >
+
+//
+
+stea422, A
+stea422, A, >
+
+stea422, B
+stea422, B, >
+
+stea422, C
+stea422, C, >
+
+stea422, D
+stea422, D, >
+
+stea422, :
+stea422, :, >
+
+stea422, a
+q4ba, A, >
+
+stea422, c
+q4bc, C, >
+
+stea422, d
+q4bd, D, >
+
+//
+
+stea423, A
+stea423, A, >
+
+stea423, B
+stea423, B, >
+
+stea423, C
+stea423, C, >
+
+stea423, D
+stea423, D, >
+
+stea423, :
+stea423, :, >
+
+stea423, a
+q4ca, A, >
+
+stea423, b
+q4cb, B, >
+
+stea423, d
+q4cd, D, >
+
+//
+
+stea424, A
+stea424, A, >
+
+stea424, B
+stea424, B, >
+
+stea424, C
+stea424, C, >
+
+stea424, D
+stea424, D, >
+
+stea424, :
+stea424, :, >
+
+stea424, a
+q4da, A, >
+
+stea424, b
+q4db, B, >
+
+stea424, c
+q4dc, C, >
+
+//
+
+q4ab, a
+q4ab, a, >
+
+q4ab, b
+q4ab, b, >
+
+q4ab, c
+q4ab, c, >
+
+q4ab, d
+q4ab, d, >
+
+q4ab, :
+q4ab, :, >
+
+q4ab, *
+stea431, *, >
+
+//
+
+q4ac, a
+q4ac, a, >
+
+q4ac, b
+q4ac, b, >
+
+q4ac, c
+q4ac, c, >
+
+q4ac, d
+q4ac, d, >
+
+q4ac, :
+q4ac, :, >
+
+q4ac, *
+stea432, *, >
+
+//
+
+q4ad, a
+q4ad, a, >
+
+q4ad, b
+q4ad, b, >
+
+q4ad, c
+q4ad, c, >
+
+q4ad, d
+q4ad, d, >
+
+q4ad, :
+q4ad, :, >
+
+q4ad, *
+stea433, *, >
+
+//
+
+
+q4ba, a
+q4ba, a, >
+
+q4ba, b
+q4ba, b, >
+
+q4ba, c
+q4ba, c, >
+
+q4ba, d
+q4ba, d, >
+
+q4ba, :
+q4ba, :, >
+
+q4ba, *
+stea434, *, >
+
+//
+
+q4bc, a
+q4bc, a, >
+
+q4bc, b
+q4bc, b, >
+
+q4bc, c
+q4bc, c, >
+
+q4bc, d
+q4bc, d, >
+
+q4bc, :
+q4bc, :, >
+
+q4bc, *
+stea435, *, >
+
+//
+
+q4bd, a
+q4bd, a, >
+
+q4bd, b
+q4bd, b, >
+
+q4bd, c
+q4bd, c, >
+
+q4bd, d
+q4bd, d, >
+
+q4bd, :
+q4bd, :, >
+
+q4bd, *
+stea436, *, >
+
+//
+
+q4ca, a
+q4ca, a, >
+
+q4ca, b
+q4ca, b, >
+
+q4ca, c
+q4ca, c, >
+
+q4ca, d
+q4ca, d, >
+
+q4ca, :
+q4ca, :, >
+
+q4ca, *
+stea437, *, >
+
+//
+
+q4cb, a
+q4cb, a, >
+
+q4cb, b
+q4cb, b, >
+
+q4cb, c
+q4cb, c, >
+
+q4cb, d
+q4cb, d, >
+
+q4cb, :
+q4cb, :, >
+
+q4cb, *
+stea438, *, >
+
+//
+
+q4cd, a
+q4cd, a, >
+
+q4cd, b
+q4cd, b, >
+
+q4cd, c
+q4cd, c, >
+
+q4cd, d
+q4cd, d, >
+
+q4cd, :
+q4cd, :, >
+
+q4cd, *
+stea439, *, >
+
+//
+
+q4da, a
+q4da, a, >
+
+q4da, b
+q4da, b, >
+
+q4da, c
+q4da, c, >
+
+q4da, d
+q4da, d, >
+
+q4da, :
+q4da, :, >
+
+q4da, *
+stea440, *, >
+
+//
+
+q4db, a
+q4db, a, >
+
+q4db, b
+q4db, b, >
+
+q4db, c
+q4db, c, >
+
+q4db, d
+q4db, d, >
+
+q4db, :
+q4db, :, >
+
+q4db, *
+stea441, *, >
+
+//
+
+q4dc, a
+q4dc, a, >
+
+q4dc, b
+q4dc, b, >
+
+q4dc, c
+q4dc, c, >
+
+q4dc, d
+q4dc, d, >
+
+q4dc, :
+q4dc, :, >
+
+q4dc, *
+stea442, *, >
+
+// nivel 5
+
+stea431, A
+stea431, A, >
+
+stea431, B
+stea431, B, >
+
+stea431, C
+stea431, C, >
+
+stea431, D
+stea431, D, >
+
+stea431, :
+stea431, :, >
+
+stea431, c
+q4abc, C, >
+
+stea431, d
+q4abd, D, >
+
+//
+
+stea432, A
+stea432, A, >
+
+stea432, B
+stea432, B, >
+
+stea432, C
+stea432, C, >
+
+stea432, D
+stea432, D, >
+
+stea432, :
+stea432, :, >
+
+stea432, b
+q4acb, B, >
+
+stea432, d
+q4acd, D, >
+
+//
+
+stea433, A
+stea433, A, >
+
+stea433, B
+stea433, B, >
+
+stea433, C
+stea433, C, >
+
+stea433, D
+stea433, D, >
+
+stea433, :
+stea433, :, >
+
+stea433, b
+q4adb, B, >
+
+stea433, c
+q4adc, C, >
+
+//
+
+stea434, A
+stea434, A, >
+
+stea434, B
+stea434, B, >
+
+stea434, C
+stea434, C, >
+
+stea434, D
+stea434, D, >
+
+stea434, :
+stea434, :, >
+
+stea434, c
+q4bac, C, >
+
+stea434, d
+q4bad, D, >
+
+//
+
+stea435, A
+stea435, A, >
+
+stea435, B
+stea435, B, >
+
+stea435, C
+stea435, C, >
+
+stea435, D
+stea435, D, >
+
+stea435, :
+stea435, :, >
+
+stea435, a
+q4bca, A, >
+
+stea435, d
+q4bcd, D, >
+
+//
+
+stea436, A
+stea436, A, >
+
+stea436, B
+stea436, B, >
+
+stea436, C
+stea436, C, >
+
+stea436, D
+stea436, D, >
+
+stea436, :
+stea436, :, >
+
+stea436, a
+q4bda, A, >
+
+stea436, c
+q4bdc, C, >
+
+//
+
+stea437, A
+stea437, A, >
+
+stea437, B
+stea437, B, >
+
+stea437, C
+stea437, C, >
+
+stea437, D
+stea437, D, >
+
+stea437, :
+stea437, :, >
+
+stea437, b
+q4cab, B, >
+
+stea437, d
+q4cad, D, >
+
+//
+
+stea438, A
+stea438, A, >
+
+stea438, B
+stea438, B, >
+
+stea438, C
+stea438, C, >
+
+stea438, D
+stea438, D, >
+
+stea438, :
+stea438, :, >
+
+stea438, a
+q4cba, A, >
+
+stea438, d
+q4cbd, D, >
+
+//
+
+stea439, A
+stea439, A, >
+
+stea439, B
+stea439, B, >
+
+stea439, C
+stea439, C, >
+
+stea439, D
+stea439, D, >
+
+stea439, :
+stea439, :, >
+
+stea439, a
+q4cda, A, >
+
+stea439, b
+q4cdb, B, >
+
+//
+
+stea440, A
+stea440, A, >
+
+stea440, B
+stea440, B, >
+
+stea440, C
+stea440, C, >
+
+stea440, D
+stea440, D, >
+
+stea440, :
+stea440, :, >
+
+stea440, b
+q4dab, B, >
+
+stea440, c
+q4dac, C, >
+
+//
+
+stea441, A
+stea441, A, >
+
+stea441, B
+stea441, B, >
+
+stea441, C
+stea441, C, >
+
+stea441, D
+stea441, D, >
+
+stea441, :
+stea441, :, >
+
+stea441, a
+q4bda, A, >
+
+stea441, c
+q4dbc, C, >
+
+//
+
+stea442, A
+stea442, A, >
+
+stea442, B
+stea442, B, >
+
+stea442, C
+stea442, C, >
+
+stea442, D
+stea442, D, >
+
+stea442, :
+stea442, :, >
+
+stea442, a
+q4dca, A, >
+
+stea442, b
+q4dcb, B, >
+
+// nivel 6 
+
+q4abc, a
+q4abc, a, >
+
+q4abc, b
+q4abc, b, >
+
+q4abc, c
+q4abc, c, >
+
+q4abc, d
+q4abc, d, >
+
+q4abc, :
+q4abc, :, >
+
+q4abc, *
+stea443, *, >
+
+//
+
+q4abd, a
+q4abd, a, >
+
+q4abd, b
+q4abd, b, >
+
+q4abd, c
+q4abd, c, >
+
+q4abd, d
+q4abd, d, >
+
+q4abd, :
+q4abd, :, >
+
+q4abd, *
+stea444, *, >
+
+//
+
+q4acb, a
+q4acb, a, >
+
+q4acb, b
+q4acb, b, >
+
+q4acb, c
+q4acb, c, >
+
+q4acb, d
+q4acb, d, >
+
+q4acb, :
+q4acb, :, >
+
+q4acb, *
+stea445, *, >
+
+//
+
+q4acd, a
+q4acd, a, >
+
+q4acd, b
+q4acd, b, >
+
+q4acd, c
+q4acd, c, >
+
+q4acd, d
+q4acd, d, >
+
+q4acd, :
+q4acd, :, >
+
+q4acd, *
+stea446, *, >
+
+//
+
+q4adb, a
+q4adb, a, >
+
+q4adb, b
+q4adb, b, >
+
+q4adb, c
+q4adb, c, >
+
+q4adb, d
+q4adb, d, >
+
+q4adb, :
+q4adb, :, >
+
+q4adb, *
+stea447, *, >
+
+//
+
+q4adc, a
+q4adc, a, >
+
+q4adc, b
+q4adc, b, >
+
+q4adc, c
+q4adc, c, >
+
+q4adc, d
+q4adc, d, >
+
+q4adc, :
+q4adc, :, >
+
+q4adc, *
+stea448, *, >
+
+//
+
+q4bac, a
+q4bac, a, >
+
+q4bac, b
+q4bac, b, >
+
+q4bac, c
+q4bac, c, >
+
+q4bac, d
+q4bac, d, >
+
+q4bac, :
+q4bac, :, >
+
+q4bac, *
+stea449, *, >
+
+//
+
+q4bad, a
+q4bad, a, >
+
+q4bad, b
+q4bad, b, >
+
+q4bad, c
+q4bad, c, >
+
+q4bad, d
+q4bad, d, >
+
+q4bad, :
+q4bad, :, >
+
+q4bad, *
+stea450, *, >
+
+//
+
+q4bca, a
+q4bca, a, >
+
+q4bca, b
+q4bca, b, >
+
+q4bca, c
+q4bca, c, >
+
+q4bca, d
+q4bca, d, >
+
+q4bca, :
+q4bca, :, >
+
+q4bca, *
+stea451, *, >
+
+//
+
+q4bcd, a
+q4bcd, a, >
+
+q4bcd, b
+q4bcd, b, >
+
+q4bcd, c
+q4bcd, c, >
+
+q4bcd, d
+q4bcd, d, >
+
+q4bcd, :
+q4bcd, :, >
+
+q4bcd, *
+stea452, *, >
+
+//
+
+q4bda, a
+q4bda, a, >
+
+q4bda, b
+q4bda, b, >
+
+q4bda, c
+q4bda, c, >
+
+q4bda, d
+q4bda, d, >
+
+q4bda, :
+q4bda, :, >
+
+q4bda, *
+stea453, *, >
+
+//
+
+q4bdc, a
+q4bdc, a, >
+
+q4bdc, b
+q4bdc, b, >
+
+q4bdc, c
+q4bdc, c, >
+
+q4bdc, d
+q4bdc, d, >
+
+q4bdc, :
+q4bdc, :, >
+
+q4bdc, *
+stea454, *, >
+
+//
+
+q4cab, a
+q4cab, a, >
+
+q4cab, b
+q4cab, b, >
+
+q4cab, c
+q4cab, c, >
+
+q4cab, d
+q4cab, d, >
+
+q4cab, :
+q4cab, :, >
+
+q4cab, *
+stea455, *, >
+
+//
+
+q4cad, a
+q4cad, a, >
+
+q4cad, b
+q4cad, b, >
+
+q4cad, c
+q4cad, c, >
+
+q4cad, d
+q4cad, d, >
+
+q4cad, :
+q4cad, :, >
+
+q4cad, *
+stea456, *, >
+
+//
+
+q4cba, a
+q4cba, a, >
+
+q4cba, b
+q4cba, b, >
+
+q4cba, c
+q4cba, c, >
+
+q4cba, d
+q4cba, d, >
+
+q4cba, :
+q4cba, :, >
+
+q4cba, *
+stea457, *, >
+
+//
+
+q4cbd, a
+q4cbd, a, >
+
+q4cbd, b
+q4cbd, b, >
+
+q4cbd, c
+q4cbd, c, >
+
+q4cbd, d
+q4cbd, d, >
+
+q4cbd, :
+q4cbd, :, >
+
+q4cbd, *
+stea458, *, >
+
+//
+
+q4cda, a
+q4cda, a, >
+
+q4cda, b
+q4cda, b, >
+
+q4cda, c
+q4cda, c, >
+
+q4cda, d
+q4cda, d, >
+
+q4cda, :
+q4cda, :, >
+
+q4cda, *
+stea459, *, >
+
+//
+
+q4cdb, a
+q4cdb, a, >
+
+q4cdb, b
+q4cdb, b, >
+
+q4cdb, c
+q4cdb, c, >
+
+q4cdb, d
+q4cdb, d, >
+
+q4cdb, :
+q4cdb, :, >
+
+q4cdb, *
+stea460, *, >
+
+//
+
+q4dab, a
+q4dab, a, >
+
+q4dab, b
+q4dab, b, >
+
+q4dab, c
+q4dab, c, >
+
+q4dab, d
+q4dab, d, >
+
+q4dab, :
+q4dab, :, >
+
+q4dab, *
+stea461, *, >
+
+//
+
+q4dac, a
+q4dac, a, >
+
+q4dac, b
+q4dac, b, >
+
+q4dac, c
+q4dac, c, >
+
+q4dac, d
+q4dac, d, >
+
+q4dac, :
+q4dac, :, >
+
+q4dac, *
+stea462, *, >
+
+//
+
+q4dba, a
+q4dba, a, >
+
+q4dba, b
+q4dba, b, >
+
+q4dba, c
+q4dba, c, >
+
+q4dba, d
+q4dba, d, >
+
+q4dba, :
+q4dba, :, >
+
+q4dba, *
+stea463, *, >
+
+//
+
+q4dbc, a
+q4dbc, a, >
+
+q4dbc, b
+q4dbc, b, >
+
+q4dbc, c
+q4dbc, c, >
+
+q4dbc, d
+q4dbc, d, >
+
+q4dbc, :
+q4dbc, :, >
+
+q4dbc, *
+stea464, *, >
+
+//
+
+q4dca, a
+q4dca, a, >
+
+q4dca, b
+q4dca, b, >
+
+q4dca, c
+q4dca, c, >
+
+q4dca, d
+q4dca, d, >
+
+q4dca, :
+q4dca, :, >
+
+q4dca, *
+stea465, *, >
+
+//
+
+q4dcb, a
+q4dcb, a, >
+
+q4dcb, b
+q4dcb, b, >
+
+q4dcb, c
+q4dcb, c, >
+
+q4dcb, d
+q4dcb, d, >
+
+q4dcb, :
+q4dcb, :, >
+
+q4dcb, *
+stea466, *, >
+
+// nivel 7
+
+stea443, A
+stea443, A, >
+
+stea443, B
+stea443, B, >
+
+stea443, C
+stea443, C, >
+
+stea443, D
+stea443, D, >
+
+stea443, :
+stea443, :, >
+
+stea443, d
+q4abcd, D, >
+
+//
+
+stea444, A
+stea444, A, >
+
+stea444, B
+stea444, B, >
+
+stea444, C
+stea444, C, >
+
+stea444, D
+stea444, D, >
+
+stea444, :
+stea444, :, >
+
+stea444, c
+q4abdc, C, >
+
+//
+
+stea445, A
+stea445, A, >
+
+stea445, B
+stea445, B, >
+
+stea445, C
+stea445, C, >
+
+stea445, D
+stea445, D, >
+
+stea445, :
+stea445, :, >
+
+stea445, d
+q4acbd, D, >
+
+//
+
+stea446, A
+stea446, A, >
+
+stea446, B
+stea446, B, >
+
+stea446, C
+stea446, C, >
+
+stea446, D
+stea446, D, >
+
+stea446, :
+stea446, :, >
+
+stea446, b
+q4acdb, B, >
+
+//
+
+stea447, A
+stea447, A, >
+
+stea447, B
+stea447, B, >
+
+stea447, C
+stea447, C, >
+
+stea447, D
+stea447, D, >
+
+stea447, :
+stea447, :, >
+
+stea447, c
+q4adbc, C, >
+
+//
+
+stea448, A
+stea448, A, >
+
+stea448, B
+stea448, B, >
+
+stea448, C
+stea448, C, >
+
+stea448, D
+stea448, D, >
+
+stea448, :
+stea448, :, >
+
+stea448, b
+q4adcb, B, >
+
+//
+
+stea449, A
+stea449, A, >
+
+stea449, B
+stea449, B, >
+
+stea449, C
+stea449, C, >
+
+stea449, D
+stea449, D, >
+
+stea449, :
+stea449, :, >
+
+stea449, d
+q4bacd, D, >
+
+//
+
+stea450, A
+stea450, A, >
+
+stea450, B
+stea450, B, >
+
+stea450, C
+stea450, C, >
+
+stea450, D
+stea450, D, >
+
+stea450, :
+stea450, :, >
+
+stea450, c
+q4badc, C, >
+
+//
+
+stea451, A
+stea451, A, >
+
+stea451, B
+stea451, B, >
+
+stea451, C
+stea451, C, >
+
+stea451, D
+stea451, D, >
+
+stea451, :
+stea251, :, >
+
+stea451, d
+q4bcad, D, >
+
+//
+
+stea452, A
+stea452, A, >
+
+stea452, B
+stea452, B, >
+
+stea452, C
+stea452, C, >
+
+stea452, D
+stea452, D, >
+
+stea452, :
+stea452, :, >
+
+stea452, a
+q4bcda, A, >
+
+//
+
+stea453, A
+stea453, A, >
+
+stea453, B
+stea453, B, >
+
+stea453, C
+stea453, C, >
+
+stea453, D
+stea453, D, >
+
+stea453, :
+stea453, :, >
+
+stea453, c
+q4bdac, C, >
+
+//
+
+stea454, A
+stea454, A, >
+
+stea454, B
+stea454, B, >
+
+stea454, C
+stea454, C, >
+
+stea454, D
+stea454, D, >
+
+stea454, :
+stea454, :, >
+
+stea454, a
+q4bdca, A, >
+
+//
+
+stea455, A
+stea455, A, >
+
+stea455, B
+stea455, B, >
+
+stea455, C
+stea455, C, >
+
+stea455, D
+stea455, D, >
+
+stea455, :
+stea455, :, >
+
+stea455, d
+q4cabd, D, >
+
+//
+
+stea456, A
+stea456, A, >
+
+stea456, B
+stea456, B, >
+
+stea456, C
+stea456, C, >
+
+stea456, D
+stea456, D, >
+
+stea456, :
+stea456, :, >
+
+stea456, b
+q4cadb, B, >
+
+//
+
+stea457, A
+stea457, A, >
+
+stea457, B
+stea457, B, >
+
+stea457, C
+stea457, C, >
+
+stea457, D
+stea457, D, >
+
+stea457, :
+stea457, :, >
+
+stea457, d
+q4cbad, D, >
+
+//
+
+stea458, A
+stea458, A, >
+
+stea458, B
+stea458, B, >
+
+stea458, C
+stea458, C, >
+
+stea458, D
+stea458, D, >
+
+stea458, :
+stea458, :, >
+
+stea458, a
+q4cbda, A, >
+
+//
+
+stea459, A
+stea459, A, >
+
+stea459, B
+stea459, B, >
+
+stea459, C
+stea459, C, >
+
+stea459, D
+stea459, D, >
+
+stea459, :
+stea459, :, >
+
+stea459, b
+q4cdab, B, >
+
+//
+
+stea460, A
+stea460, A, >
+
+stea460, B
+stea460, B, >
+
+stea460, C
+stea460, C, >
+
+stea460, D
+stea460, D, >
+
+stea460, :
+stea460, :, >
+
+stea460, a
+q4cdba, A, >
+
+//
+
+stea461, A
+stea461, A, >
+
+stea461, B
+stea461, B, >
+
+stea461, C
+stea461, C, >
+
+stea461, D
+stea461, D, >
+
+stea461, :
+stea461, :, >
+
+stea461, c
+q4dabc, C, >
+
+//
+
+stea462, A
+stea462, A, >
+
+stea462, B
+stea462, B, >
+
+stea462, C
+stea462, C, >
+
+stea462, D
+stea462, D, >
+
+stea462, :
+stea462, :, >
+
+stea462, b
+q4dacb, B, >
+
+//
+
+stea463, A
+stea463, A, >
+
+stea463, B
+stea463, B, >
+
+stea463, C
+stea463, C, >
+
+stea463, D
+stea463, D, >
+
+stea463, :
+stea463, :, >
+
+stea463, c
+q4dbac, C, >
+
+//
+
+stea464, A
+stea464, A, >
+
+stea464, B
+stea464, B, >
+
+stea464, C
+stea464, C, >
+
+stea464, D
+stea464, D, >
+
+stea464, :
+stea464, :, >
+
+stea464, a
+q4dbca, A, >
+
+//
+
+stea465, A
+stea465, A, >
+
+stea465, B
+stea465, B, >
+
+stea465, C
+stea465, C, >
+
+stea465, D
+stea465, D, >
+
+stea465, :
+stea465, :, >
+
+stea465, b
+q4dcab, B, >
+
+//
+
+stea466, A
+stea466, A, >
+
+stea466, B
+stea466, B, >
+
+stea466, C
+stea466, C, >
+
+stea466, D
+stea466, D, >
+
+stea466, :
+stea466, :, >
+
+stea466, a
+q4dcba, A, >
+
+// nivel 8
+
+
+q4abcd, *
+final_col, *, <
+
+q4abdc, *
+final_col, *, <
+
+q4acbd, *
+final_col, *, <
+
+q4acdb, *
+final_col, *, <
+
+q4adbc, *
+final_col, *, <
+
+q4adcb, *
+final_col, *, <
+
+q4bacd, *
+final_col, *, <
+
+q4badc, *
+final_col, *, <
+
+q4bcad, *
+final_col, *, <
+
+q4bcda, *
+final_col, *, <
+
+q4bdac, *
+final_col, *, <
+
+q4bdca, *
+final_col, *, <
+
+q4cabd, *
+final_col, *, <
+
+q4cadb, *
+final_col, *, <
+
+q4cbad, *
+final_col, *, <
+
+q4cbda, *
+final_col, *, <
+
+q4cdab, *
+final_col, *, <
+
+q4cdba, *
+final_col, *, <
+
+q4dabc, *
+final_col, *, <
+
+q4dacb, *
+final_col, *, <
+
+q4dbac, *
+final_col, *, <
+
+q4dbca, *
+final_col, *, <
+
+q4dcab, *
+final_col, *, <
+
+q4dcba, *
+final_col, *, <
+
+//
+
+final_col, A
+final_col, 1, <
+
+final_col, B
+final_col, 2, <
+
+final_col, C
+final_col, 3, <
+
+final_col, D
+final_col, 4, <
+
+final_col, :
+final_col, :, <
+
+final_col, *
+final_col, *, <
+
+final_col, _
+chenar, _, >
+
+// task - regiuni
+
+chenar, *
+chenar, *, >
+
+chenar, :
+chenar, :, >
+
+chenar, 1
+chenar, a, >
+
+chenar, 2
+chenar, b, >
+
+chenar, 3
+chenar, c, >
+
+chenar, 4
+chenar, d, >
+
+chenar, _
+backreg, _, <
+
+backreg, *
+backreg, *, <
+
+backreg, :
+backreg, :, <
+
+backreg, a
+backreg, a, <
+
+backreg, b
+backreg, b, <
+
+backreg, c
+backreg, c, <
+
+backreg, d
+backreg, d, <
+
+backreg, _
+backreg1, _, >
+
+backreg1, *
+chenar1, *, >
+
+// nivel 1
+
+chenar1, a
+sa_1, A, >
+
+chenar1, b
+sb_1, B, >
+
+chenar1, c
+sc_1, C, >
+
+chenar1, d
+sd_1, D, >
+
+// nivel 2
+
+sa_1, b
+sab_1, B, >
+
+sa_1, c
+sac_1, C, >
+
+sa_1, d
+sad_1, D, >
+
+//
+
+sb_1, a
+sba_1, A, >
+
+sb_1, c
+sbc_1, C, >
+
+sb_1, d
+sbd_1, D, >
+
+//
+
+sc_1, a
+sca_1, A, >
+
+sc_1, b
+scb_1, B, >
+
+sc_1, d
+scd_1, D, >
+
+//
+
+sd_1, a
+sda_1, A, >
+
+sd_1, b
+sdb_1, B, >
+
+sd_1, c
+sdc_1, C, >
+
+// nivel 3
+
+sab_1, a
+sab_1, a, >
+
+sab_1, b
+sab_1, b, >
+
+sab_1, c
+sab_1, c, >
+
+sab_1, d
+sab_1, d, >
+
+sab_1, :
+sab_1, :, >
+
+sab_1, *
+steluta1_1, *, >
+
+//
+
+sac_1, a
+sac_1, a, >
+
+sac_1, b
+sac_1, b, >
+
+sac_1, c
+sac_1, c, >
+
+sac_1, d
+sac_1, d, >
+
+sac_1, :
+sac_1, :, >
+
+sac_1, *
+steluta2_1, *, >
+
+//
+
+sad_1, a
+sad_1, a, >
+
+sad_1, b
+sad_1, b, >
+
+sad_1, c
+sad_1, c, >
+
+sad_1, d
+sad_1, d, >
+
+sad_1, :
+sad_1, :, >
+
+sad_1, *
+steluta3_1, *, >
+
+//
+
+sba_1, a
+sba_1, a, >
+
+sba_1, b
+sba_1, b, >
+
+sba_1, c
+sba_1, c, >
+
+sba_1, d
+sba_1, d, >
+
+sba_1, :
+sba_1, :, >
+
+sba_1, *
+steluta4_1, *, >
+
+//
+
+sbc_1, a
+sbc_1, a, >
+
+sbc_1, b
+sbc_1, b, >
+
+sbc_1, c
+sbc_1, c, >
+
+sbc_1, d
+sbc_1, d, >
+
+sbc_1, :
+sbc_1, :, >
+
+sbc_1, *
+steluta5_1, *, >
+
+//
+sbd_1, a
+sbd_1, a, >
+
+sbd_1, b
+sbd_1, b, >
+
+sbd_1, c
+sbd_1, c, >
+
+sbd_1, d
+sbd_1, d, >
+
+sbd_1, :
+sbd_1, :, >
+
+sbd_1, *
+steluta6_1, *, >
+
+//
+
+sca_1, a
+sca_1, a, >
+
+sca_1, b
+sca_1, b, >
+
+sca_1, c
+sca_1, c, >
+
+sca_1, d
+sca_1, d, >
+
+sca_1, :
+sca_1, :, >
+
+sca_1, *
+steluta7_1, *, >
+
+//
+
+scb_1, a
+scb_1, a, >
+
+scb_1, b
+scb_1, b, >
+
+scb_1, c
+scb_1, c, >
+
+scb_1, d
+scb_1, d, >
+
+scb_1, :
+scb_1, :, >
+
+scb_1, *
+steluta8_1, *, >
+
+//
+scd_1, a
+scd_1, a, >
+
+scd_1, b
+scd_1, b, >
+
+scd_1, c
+scd_1, c, >
+
+scd_1, d
+scd_1, d, >
+
+scd_1, :
+scd_1, :, >
+
+scd_1, *
+steluta9_1, *, >
+
+//
+sda_1, a
+sda_1, a, >
+
+sda_1, b
+sda_1, b, >
+
+sda_1, c
+sda_1, c, >
+
+sda_1, d
+sda_1, d, >
+
+sda_1, :
+sda_1, :, >
+
+sda_1, *
+steluta10_1, *, >
+
+//
+
+sdb_1, a
+sdb_1, a, >
+
+sdb_1, b
+sdb_1, b, >
+
+sdb_1, c
+sdb_1, c, >
+
+sdb_1, d
+sdb_1, d, >
+
+sdb_1, :
+sdb_1, :, >
+
+sdb_1, *
+steluta11_1, *, >
+
+//
+
+sdc_1, a
+sdc_1, a, >
+
+sdc_1, b
+sdc_1, b, >
+
+sdc_1, c
+sdc_1, c, >
+
+sdc_1, d
+sdc_1, d, >
+
+sdc_1, :
+sdc_1, :, >
+
+sdc_1, *
+steluta12_1, *, >
+
+// nivel 4
+
+steluta1_1, c
+sabc_1, C, >
+
+steluta1_1, d
+sabd_1, D, >
+
+//
+
+steluta2_1, b
+sacb_1, B, >
+
+steluta2_1, d
+sacd_1, D, >
+
+//
+
+steluta3_1, b
+sadb_1, B, >
+
+steluta3_1, c
+sadc_1, C, >
+
+//
+
+steluta4_1, c
+sbac_1, C, >
+
+steluta4_1, d
+sbad_1, D, >
+
+//
+
+steluta5_1, a
+sbca_1, A, >
+
+steluta5_1, d
+sbcd_1, D, >
+
+//
+
+
+steluta6_1, a
+sbda_1, A, >
+
+steluta6_1, c
+sbdc_1, C, >
+
+//
+
+steluta7_1, b
+scab_1, B, >
+
+steluta7_1, d
+scad_1, D, >
+
+//
+
+steluta8_1, a
+scba_1, A, >
+
+steluta8_1, d
+scbd_1, D, >
+
+//
+
+steluta9_1, a
+scda_1, A, >
+
+steluta9_1, b
+scdb_1, B, >
+
+//
+
+steluta10_1, b
+sdab_1, B, >
+
+steluta10_1, c
+sdac_1, C, >
+
+//
+
+steluta11_1, a
+sdba_1, A, >
+
+steluta11_1, c
+sdbc_1, C, >
+
+//
+
+steluta12_1, a
+sdca_1, A, >
+
+steluta12_1, b
+sdcb_1, B, >
+
+// nivel 5
+
+sabc_1, d
+sabcd_1, D, >
+
+sabd_1, C
+sabdc_1, C, >
+
+//
+
+sacb_1, d
+sacbd_1, D, >
+
+sacd_1, b
+sacdb_1, B, >
+
+//
+
+sadb_1, c
+sadbc_1, C, >
+
+sadc_1, b
+sadcb_1, B, >
+
+//
+
+sbac_1, d
+sbacd_1, D, >
+
+sbad_1, c
+sbadc_1, C, >
+
+//
+
+sbca_1, d
+sbcad_1, D, >
+
+sbcd_1, a
+sbcda_1, A, >
+
+//
+
+sbda_1, c
+sbdac_1, C, >
+
+sbdc_1, a
+sbdca_1, A, >
+
+//
+
+scab_1, d
+scabd_1, D, >
+
+scad_1, b
+scadb_1, B, >
+
+//
+
+scba_1, d
+scbad_1, D, >
+
+scbd_1, a
+scbda_1, A, >
+
+//
+
+scda_1, b
+scdab_1, B, >
+
+scdb_1, a
+scdba_1, A, >
+
+//
+
+sdab_1, c
+sdabc_1, C, >
+
+sdac_1, b
+sdacb_1, B, >
+
+//
+
+sdba_1, c
+sdbac_1, C, >
+
+sdbc_1, a
+sdbca_1, A, >
+
+//
+
+sdca_1, b
+sdcab_1, B, >
+
+sdcb_1, a
+sdcba_1, A, >
+
+// nivel 6
+
+sabcd_1, :
+intoarcere_1, :, <
+
+sabcd_1, a
+intoarcere_1, a, <
+
+sabcd_1, b
+intoarcere_1, b, <
+
+sabcd_1, c
+intoarcere_1, c, <
+
+sabcd_1, d
+intoarcere_1, d, <
+
+//
+
+sabdc_1, :
+intoarcere_1, :, <
+
+sabdc_1, a
+intoarcere_1, a, <
+
+sabdc_1, b
+intoarcere_1, b, <
+
+sabdc_1, c
+intoarcere_1, c, <
+
+sabdc_1, d
+intoarcere_1, d, <
+
+//
+
+sacbd_1, :
+intoarcere_1, :, <
+
+sacbd_1, a
+intoarcere_1, a, <
+
+sacbd_1, b
+intoarcere_1, b, <
+
+sacbd_1, c
+intoarcere_1, c, <
+
+sacbd_1, d
+intoarcere_1, d, <
+
+//
+
+sacdb_1, :
+intoarcere_1, :, <
+
+sacdb_1, a
+intoarcere_1, a, <
+
+sacdb_1, b
+intoarcere_1, b, <
+
+sacdb_1, c
+intoarcere_1, c, <
+
+sacdb_1, d
+intoarcere_1, d, <
+
+//
+
+sadbc_1, :
+intoarcere_1, :, <
+
+sadbc_1, a
+intoarcere_1, a, <
+
+sadbc_1, b
+intoarcere_1, b, <
+
+sadbc_1, c
+intoarcere_1, c, <
+
+sadbc_1, d
+intoarcere_1, d, <
+
+//
+
+sadcb_1, :
+intoarcere_1, :, <
+
+sadcb_1, a
+intoarcere_1, a, <
+
+sadcb_1, b
+intoarcere_1, b, <
+
+sadcb_1, c
+intoarcere_1, c, <
+
+sadcb_1, d
+intoarcere_1, d, <
+
+//
+
+sbacd_1, :
+intoarcere_1, :, <
+
+sbacd_1, a
+intoarcere_1, a, <
+
+sbacd_1, b
+intoarcere_1, b, <
+
+sbacd_1, c
+intoarcere_1, c, <
+
+sbacd_1, d
+intoarcere_1, d, <
+
+//
+sbadc_1, :
+intoarcere_1, :, <
+
+sbadc_1, a
+intoarcere_1, a, <
+
+sbadc_1, b
+intoarcere_1, b, <
+
+sbadc_1, c
+intoarcere_1, c, <
+
+sbadc_1, d
+intoarcere_1, d, <
+
+//
+
+sbcad_1, :
+intoarcere_1, :, <
+
+sbcad_1, a
+intoarcere_1, a, <
+
+sbcad_1, b
+intoarcere_1, b, <
+
+sbcad_1, c
+intoarcere_1, c, <
+
+sbcad_1, d
+intoarcere_1, d, <
+
+//
+
+sbcda_1, :
+intoarcere_1, :, <
+
+sbcda_1, a
+intoarcere_1, a, <
+
+sbcda_1, b
+intoarcere_1, b, <
+
+sbcda_1, c
+intoarcere_1, c, <
+
+sbcda_1, d
+intoarcere_1, d, <
+
+//
+sbdac_1, :
+intoarcere_1, :, <
+
+sbdac_1, a
+intoarcere_1, a, <
+
+sbdac_1, b
+intoarcere_1, b, <
+
+sbdac_1, c
+intoarcere_1, c, <
+
+sbdac_1, d
+intoarcere_1, d, <
+
+//
+
+sbdca_1, :
+intoarcere_1, :, <
+
+sbdca_1, a
+intoarcere_1, a, <
+
+sbdca_1, b
+intoarcere_1, b, <
+
+sbdca_1, c
+intoarcere_1, c, <
+
+sbdca_1, d
+intoarcere_1, d, <
+
+//
+
+scabd_1, :
+intoarcere_1, :, <
+
+scabd_1, a
+intoarcere_1, a, <
+
+scabd_1, b
+intoarcere_1, b, <
+
+scabd_1, c
+intoarcere_1, c, <
+
+scabd_1, d
+intoarcere_1, d, <
+
+//
+
+scadb_1, :
+intoarcere_1, :, <
+
+scadb_1, a
+intoarcere_1, a, <
+
+scadb_1, b
+intoarcere_1, b, <
+
+scadb_1, c
+intoarcere_1, c, <
+
+scadb_1, d
+intoarcere_1, d, <
+
+//
+
+scbad_1, :
+intoarcere_1, :, <
+
+scbad_1, a
+intoarcere_1, a, <
+
+scbad_1, b
+intoarcere_1, b, <
+
+scadb_1, c
+intoarcere_1, c, <
+
+scadb_1, d
+intoarcere_1, d, <
+
+//
+
+scbda_1, :
+intoarcere_1, :, <
+
+scbda_1, a
+intoarcere_1, a, <
+
+scbda_1, b
+intoarcere_1, b, <
+
+scbda_1, c
+intoarcere_1, c, <
+
+scbda_1, d
+intoarcere_1, d, <
+
+//
+
+scdab_1, :
+intoarcere_1, :, <
+
+scdab_1, a
+intoarcere_1, a, <
+
+scdab_1, b
+intoarcere_1, b, <
+
+scdab_1, c
+intoarcere_1, c, <
+
+scdab_1, d
+intoarcere_1, d, <
+
+//
+
+scdba_1, :
+intoarcere_1, :, <
+
+scdba_1, a
+intoarcere_1, a, <
+
+scdba_1, b
+intoarcere_1, b, <
+
+scdba_1, c
+intoarcere_1, c, <
+
+scdba_1, d
+intoarcere_1, d, <
+
+//
+
+sdabc_1, :
+intoarcere_1, :, <
+
+sdabc_1, a
+intoarcere_1, a, <
+
+sdabc_1, b
+intoarcere_1, b, <
+
+sdabc_1, c
+intoarcere_1, c, <
+
+sdabc_1, d
+intoarcere_1, d, <
+
+//
+
+sdacb_1, :
+intoarcere_1, :, <
+
+sdacb_1, a
+intoarcere_1, a, <
+
+sdacb_1, b
+intoarcere_1, b, <
+
+sdacb_1, c
+intoarcere_1, c, <
+
+sdacb_1, d
+intoarcere_1, d, <
+
+//
+
+sdbac_1, :
+intoarcere_1, :, <
+
+sdbac_1, a
+intoarcere_1, a, <
+
+sdbac_1, b
+intoarcere_1, b, <
+
+sdbac_1, c
+intoarcere_1, c, <
+
+sdbac_1, d
+intoarcere_1, d, <
+
+//
+
+sdbca_1, :
+intoarcere_1, :, <
+
+sdbca_1, a
+intoarcere_1, a, <
+
+sdbca_1, b
+intoarcere_1, b, <
+
+sdbca_1, c
+intoarcere_1, c, <
+
+sdbca_1, d
+intoarcere_1, d, <
+
+//
+sdcab_1, :
+intoarcere_1, :, <
+
+sdcab_1, a
+intoarcere_1, a, <
+
+sdcab_1, b
+intoarcere_1, b, <
+
+sdcab_1, c
+intoarcere_1, c, <
+
+sdcab_1, d
+intoarcere_1, d, <
+
+//
+
+sdcba_1, :
+intoarcere_1, :, <
+
+sdcba_1, a
+intoarcere_1, a, <
+
+sdcba_1, b
+intoarcere_1, b, <
+
+sdcba_1, c
+intoarcere_1, c, <
+
+sdcba_1, d
+intoarcere_1, d, <
+
+/// intoarcere la :
+
+intoarcere_1, :
+chenar2, :, >
+
+intoarcere_1, a
+intoarcere_1, a, <
+
+intoarcere_1, b
+intoarcere_1, b, <
+
+intoarcere_1, c
+intoarcere_1, c, <
+
+intoarcere_1, d
+intoarcere_1, d, <
+
+intoarcere_1, *
+intoarcere_1, *, <
+
+intoarcere_1, A
+intoarcere_1, A, <
+
+intoarcere_1, B
+intoarcere_1, B, <
+
+intoarcere_1, C
+intoarcere_1, C, <
+
+intoarcere_1, D
+intoarcere_1, D, <
+
+// CHENAR 2
+
+// nivel 1 - chenar 2
+
+chenar2, a
+sa_2, A, >
+
+chenar2, b
+sb_2, B, >
+
+chenar2, c
+sc_2, C, >
+
+chenar2, d
+sd_2, D, >
+
+// nivel 2 - chenar 2
+
+sa_2, b
+sab_2, B, >
+
+sa_2, c
+sac_2, C, >
+
+sa_2, d
+sad_2, D, >
+
+
+//
+
+sb_2, a
+sba_2, A, >
+
+sb_2, c
+sbc_2, C, >
+
+sb_2, d
+sbd_2, D, >
+
+//
+
+sc_2, a
+sca_2, A, >
+
+sc_2, b
+scb_2, B, >
+
+sc_2, d
+scd_2, D, >
+
+//
+
+sd_2, a
+sda_2, A, >
+
+sd_2, b
+sdb_2, B, >
+
+sd_2, c
+sdc_2, C, >
+
+// nivel 3 - chenar 2
+
+sab_2, a
+sab_2, a, >
+
+sab_2, b
+sab_2, b, >
+
+sab_2, c
+sab_2, c, >
+
+sab_2, d
+sab_2, d, >
+
+sab_2, A
+sab_2, A, >
+
+sab_2, B 
+sab_2, B, >
+
+sab_2, C 
+sab_2, C, >
+
+sab_2, D 
+sab_2, D, >
+
+sab_2, *
+sab_2, *, >
+
+sab_2, :
+steluta1_2, :, >
+
+//
+
+sac_2, a
+sac_2, a, >
+
+sac_2, b
+sac_2, b, >
+
+sac_2, c
+sac_2, c, >
+
+sac_2, d
+sac_2, d, >
+
+sac_2, A
+sac_2, A, >
+
+sac_2, B 
+sac_2, B, >
+
+sac_2, C 
+sac_2, C, >
+
+sac_2, D 
+sac_2, D, >
+
+sac_2, *
+sac_2, *, >
+
+sac_2, :
+steluta2_2, :, >
+
+//
+
+sad_2, a
+sad_2, a, >
+
+sad_2, b
+sad_2, b, >
+
+sad_2, c
+sad_2, c, >
+
+sad_2, d
+sad_2, d, >
+
+sad_2, A
+sad_2, A, >
+
+sad_2, B 
+sad_2, B, >
+
+sad_2, C 
+sad_2, C, >
+
+sad_2, D 
+sad_2, D, >
+
+sad_2, *
+sad_2, *, >
+
+sad_2, :
+steluta3_2, :, >
+
+//
+
+sba_2, a
+sba_2, a, >
+
+sba_2, b
+sba_2, b, >
+
+sba_2, c
+sba_2, c, >
+
+sba_2, d
+sba_2, d, >
+
+sba_2, A
+sba_2, A, >
+
+sba_2, B 
+sba_2, B, >
+
+sba_2, C 
+sba_2, C, >
+
+sba_2, D 
+sba_2, D, >
+
+sba_2, *
+sba_2, *, >
+
+sba_2, :
+steluta4_2, :, >
+
+//
+
+sbc_2, a
+sbc_2, a, >
+
+sbc_2, b
+sbc_2, b, >
+
+sbc_2, c
+sbc_2, c, >
+
+sbc_2, d
+sbc_2, d, >
+
+sbc_2, A
+sbc_2, A, >
+
+sbc_2, B 
+sbc_2, B, >
+
+sbc_2, C 
+sbc_2, C, >
+
+sbc_2, D 
+sbc_2, D, >
+
+sbc_2, *
+sbc_2, *, >
+
+sbc_2, :
+steluta5_2, :, >
+
+//
+sbd_2, a
+sbd_2, a, >
+
+sbd_2, b
+sbd_2, b, >
+
+sbd_2, c
+sbd_2, c, >
+
+sbd_2, d
+sbd_2, d, >
+
+sbd_2, A
+sbd_2, A, >
+
+sbd_2, B 
+sbd_2, B, >
+
+sbd_2, C 
+sbd_2, C, >
+
+sbd_2, D 
+sbd_2, D, >
+
+sbd_2, *
+sbd_2, *, >
+
+sbd_2, :
+steluta6_2, :, >
+
+//
+
+sca_2, a
+sca_2, a, >
+
+sca_2, b
+sca_2, b, >
+
+sca_2, c
+sca_2, c, >
+
+sca_2, d
+sca_2, d, >
+
+sca_2, A
+sca_2, A, >
+
+sca_2, B 
+sca_2, B, >
+
+sca_2, C 
+sca_2, C, >
+
+sca_2, D 
+sca_2, D, >
+
+sca_2, *
+sca_2, *, >
+
+sca_2, :
+steluta7_2, :, >
+
+//
+
+scb_2, a
+scb_2, a, >
+
+scb_2, b
+scb_2, b, >
+
+scb_2, c
+scb_2, c, >
+
+scb_2, d
+scb_2, d, >
+
+scb_2, A
+scb_2, A, >
+
+scb_2, B 
+scb_2, B, >
+
+scb_2, C 
+scb_2, C, >
+
+scb_2, D 
+scb_2, D, >
+
+scb_2, *
+scb_2, *, >
+
+scb_2, :
+steluta8_2, :, >
+
+//
+scd_2, a
+scd_2, a, >
+
+scd_2, b
+scd_2, b, >
+
+scd_2, c
+scd_2, c, >
+
+scd_2, d
+scd_2, d, >
+
+scd_2, A
+scd_2, A, >
+
+scd_2, B 
+scd_2, B, >
+
+scd_2, C 
+scd_2, C, >
+
+scd_2, D 
+scd_2, D, >
+
+scd_2, *
+scd_2, *, >
+
+scd_2, :
+steluta9_2, :, >
+
+//
+sda_2, a
+sda_2, a, >
+
+sda_2, b
+sda_2, b, >
+
+sda_2, c
+sda_2, c, >
+
+sda_2, d
+sda_2, d, >
+
+sda_2, A
+sda_2, A, >
+
+sda_2, B 
+sda_2, B, >
+
+sda_2, C 
+sda_2, C, >
+
+sda_2, D 
+sda_2, D, >
+
+sda_2, *
+sda_2, *, >
+
+sda_2, :
+steluta10_2, :, >
+
+//
+
+sdb_2, a
+sdb_2, a, >
+
+sdb_2, b
+sdb_2, b, >
+
+sdb_2, c
+sdb_2, c, >
+
+sdb_2, d
+sdb_2, d, >
+
+sdb_2, A
+sdb_2, A, >
+
+sdb_2, B 
+sdb_2, B, >
+
+sdb_2, C 
+sdb_2, C, >
+
+sdb_2, D 
+sdb_2, D, >
+
+sdb_2, *
+sdb_2, *, >
+
+sdb_2, :
+steluta11_2, :, >
+
+//
+
+sdc_2, a
+sdc_2, a, >
+
+sdc_2, b
+sdc_2, b, >
+
+sdc_2, c
+sdc_2, c, >
+
+sdc_2, d
+sdc_2, d, >
+
+sdc_2, A
+sdc_2, A, >
+
+sdc_2, B 
+sdc_2, B, >
+
+sdc_2, C 
+sdc_2, C, >
+
+sdc_2, D 
+sdc_2, D, >
+
+sdc_2, *
+sdc_2, *, >
+
+sdc_2, :
+steluta12_2, :, >
+
+
+// nivel 4 - chenar 2
+
+steluta1_2, c
+sabc_2, C, >
+
+steluta1_2, d
+sabd_2, D, >
+
+//
+
+steluta2_2, b
+sacb_2, B, >
+
+steluta2_2, d
+sacd_2, D, >
+
+//
+
+steluta3_2, b
+sadb_2, B, >
+
+steluta3_2, c
+sadc_2, C, >
+
+//
+
+steluta4_2, c
+sbac_2, C, >
+
+steluta4_2, d
+sbad_2, D, >
+
+//
+
+steluta5_2, a
+sbca_2, A, >
+
+steluta5_2, d
+sbcd_2, D, >
+
+//
+
+
+steluta6_2, a
+sbda_2, A, >
+
+steluta6_2, c
+sbdc_2, C, >
+
+//
+
+steluta7_2, b
+scab_2, B, >
+
+steluta7_2, d
+scad_2, D, >
+
+//
+
+steluta8_2, a
+scba_2, A, >
+
+steluta8_2, d
+scbd_2, D, >
+
+//
+
+steluta9_2, a
+scda_2, A, >
+
+steluta9_2, b
+scdb_2, B, >
+
+//
+
+steluta10_2, b
+sdab_2, B, >
+
+steluta10_2, c
+sdac_2, C, >
+
+//
+
+steluta11_2, a
+sdba_2, A, >
+
+steluta11_2, c
+sdbc_2, C, >
+
+//
+
+steluta12_2, a
+sdca_2, A, >
+
+steluta12_2, b
+sdcb_2, B, >
+
+// nivel 5 - chenar 2
+
+sabc_2, d
+sabcd_2, D, >
+
+sabd_2, C
+sabdc_2, C, >
+
+//
+
+sacb_2, d
+sacbd_2, D, >
+
+sacd_2, b
+sacdb_2, B, >
+
+//
+
+sadb_2, c
+sadbc_2, C, >
+
+sadc_2, b
+sadcb_2, B, >
+
+//
+
+sbac_2, d
+sbacd_2, D, >
+
+sbad_2, c
+sbadc_2, C, >
+
+//
+
+sbca_2, d
+sbcad_2, D, >
+
+sbcd_2, a
+sbcda_2, A, >
+
+//
+
+sbda_2, c
+sbdac_2, C, >
+
+sbdc_2, a
+sbdca_2, A, >
+
+//
+
+scab_2, d
+scabd_2, D, >
+
+scad_2, b
+scadb_2, B, >
+
+//
+
+scba_2, d
+scbad_2, D, >
+
+scbd_2, a
+scbda_2, A, >
+
+//
+
+scda_2, b
+scdab_2, B, >
+
+scdb_2, a
+scdba_2, A, >
+
+//
+
+sdab_2, c
+sdabc_2, C, >
+
+sdac_2, b
+sdacb_2, B, >
+
+//
+
+sdba_2, c
+sdbac_2, C, >
+
+sdbc_2, a
+sdbca_2, A, >
+
+//
+
+sdca_2, b
+sdcab_2, B, >
+
+sdcb_2, a
+sdcba_2, A, >
+
+// nivel 6 - chenar 2
+
+// nivel 6
+
+sabcd_2, :
+intoarcere_2, :, <
+
+sabcd_2, a
+intoarcere_2, a, <
+
+sabcd_2, b
+intoarcere_2, b, <
+
+sabcd_2, c
+intoarcere_2, c, <
+
+sabcd_2, d
+intoarcere_2, d, <
+
+sabcd_2, *
+chenar3, *, >
+
+
+//
+
+sabdc_2, :
+intoarcere_2, :, <
+
+sabdc_2, a
+intoarcere_2, a, <
+
+sabdc_2, b
+intoarcere_2, b, <
+
+sabdc_2, c
+intoarcere_2, c, <
+
+sabdc_2, d
+intoarcere_2, d, <
+
+sabdc_2, *
+chenar3, *, >
+
+//
+
+sacbd_2, :
+intoarcere_2, :, <
+
+sacbd_2, a
+intoarcere_2, a, <
+
+sacbd_2, b
+intoarcere_2, b, <
+
+sacbd_2, c
+intoarcere_2, c, <
+
+sacbd_2, d
+intoarcere_2, d, <
+
+sacbd_2, *
+chenar3, *, >
+
+//
+
+sacdb_2, :
+intoarcere_2, :, <
+
+sacdb_2, a
+intoarcere_2, a, <
+
+sacdb_2, b
+intoarcere_2, b, <
+
+sacdb_2, c
+intoarcere_2, c, <
+
+sacdb_2, d
+intoarcere_2, d, <
+
+sacdb_2, *
+chenar3, *, >
+
+//
+
+sadbc_2, :
+intoarcere_2, :, <
+
+sadbc_2, a
+intoarcere_2, a, <
+
+sadbc_2, b
+intoarcere_2, b, <
+
+sadbc_2, c
+intoarcere_2, c, <
+
+sadbc_2, d
+intoarcere_2, d, <
+
+sadbc_2, *
+chenar3, *, >
+
+//
+
+sadcb_2, :
+intoarcere_2, :, <
+
+sadcb_2, a
+intoarcere_2, a, <
+
+sadcb_2, b
+intoarcere_2, b, <
+
+sadcb_2, c
+intoarcere_2, c, <
+
+sadcb_2, d
+intoarcere_2, d, <
+
+sadcb_2, *
+chenar3, *, >
+
+//
+
+sbacd_2, :
+intoarcere_2, :, <
+
+sbacd_2, a
+intoarcere_2, a, <
+
+sbacd_2, b
+intoarcere_2, b, <
+
+sbacd_2, c
+intoarcere_2, c, <
+
+sbacd_2, d
+intoarcere_2, d, <
+
+sbacd_2, *
+chenar3, *, >
+
+//
+sbadc_2, :
+intoarcere_2, :, <
+
+sbadc_2, a
+intoarcere_2, a, <
+
+sbadc_2, b
+intoarcere_2, b, <
+
+sbadc_2, c
+intoarcere_2, c, <
+
+sbadc_2, d
+intoarcere_2, d, <
+
+sbadc_2, *
+chenar3, *, >
+
+//
+
+sbcad_2, :
+intoarcere_2, :, <
+
+sbcad_2, a
+intoarcere_2, a, <
+
+sbcad_2, b
+intoarcere_2, b, <
+
+sbcad_2, c
+intoarcere_2, c, <
+
+sbcad_2, d
+intoarcere_2, d, <
+
+sbcad_2, *
+chenar3, *, >
+
+//
+
+sbcda_2, :
+intoarcere_2, :, <
+
+sbcda_2, a
+intoarcere_2, a, <
+
+sbcda_2, b
+intoarcere_2, b, <
+
+sbcda_2, c
+intoarcere_2, c, <
+
+sbcda_2, d
+intoarcere_2, d, <
+
+sbcda_2, *
+chenar3, *, >
+
+//
+sbdac_2, :
+intoarcere_2, :, <
+
+sbdac_2, a
+intoarcere_2, a, <
+
+sbdac_2, b
+intoarcere_2, b, <
+
+sbdac_2, c
+intoarcere_2, c, <
+
+sbdac_2, d
+intoarcere_2, d, <
+
+sbdac_2, *
+chenar3, *, >
+
+//
+
+sbdca_2, :
+intoarcere_2, :, <
+
+sbdca_2, a
+intoarcere_2, a, <
+
+sbdca_2, b
+intoarcere_2, b, <
+
+sbdca_2, c
+intoarcere_2, c, <
+
+sbdca_2, d
+intoarcere_2, d, <
+
+sbdca_2, *
+chenar3, *, >
+
+//
+
+scabd_2, :
+intoarcere_2, :, <
+
+scabd_2, a
+intoarcere_2, a, <
+
+scabd_2, b
+intoarcere_2, b, <
+
+scabd_2, c
+intoarcere_2, c, <
+
+scabd_2, d
+intoarcere_2, d, <
+
+scabd_2, *
+chenar3, *, >
+
+//
+
+scadb_2, :
+intoarcere_2, :, <
+
+scadb_2, a
+intoarcere_2, a, <
+
+scadb_2, b
+intoarcere_2, b, <
+
+scadb_2, c
+intoarcere_2, c, <
+
+scadb_2, d
+intoarcere_2, d, <
+
+scadb_2, *
+chenar3, *, >
+
+//
+
+scbad_2, :
+intoarcere_2, :, <
+
+scbad_2, a
+intoarcere_2, a, <
+
+scbad_2, b
+intoarcere_2, b, <
+
+scbad_2, c
+intoarcere_2, c, <
+
+scbad_2, d
+intoarcere_2, d, <
+
+scbad_2, *
+chenar3, *, >
+
+//
+
+scbda_2, :
+intoarcere_2, :, <
+
+scbda_2, a
+intoarcere_2, a, <
+
+scbda_2, b
+intoarcere_2, b, <
+
+scbda_2, c
+intoarcere_2, c, <
+
+scbda_2, d
+intoarcere_2, d, <
+
+scbda_2, *
+chenar3, *, >
+
+//
+
+scdab_2, :
+intoarcere_2, :, <
+
+scdab_2, a
+intoarcere_2, a, <
+
+scdab_2, b
+intoarcere_2, b, <
+
+scdab_2, c
+intoarcere_2, c, <
+
+scdab_2, d
+intoarcere_2, d, <
+
+scdab_2, *
+chenar3, *, >
+
+//
+
+scdba_2, :
+intoarcere_2, :, <
+
+scdba_2, a
+intoarcere_2, a, <
+
+scdba_2, b
+intoarcere_2, b, <
+
+scdba_2, c
+intoarcere_2, c, <
+
+scdba_2, d
+intoarcere_2, d, <
+
+scdba_2, *
+chenar3, *, >
+
+//
+
+sdabc_2, :
+intoarcere_2, :, <
+
+sdabc_2, a
+intoarcere_2, a, <
+
+sdabc_2, b
+intoarcere_2, b, <
+
+sdabc_2, c
+intoarcere_2, c, <
+
+sdabc_2, d
+intoarcere_2, d, <
+
+sdabc_2, *
+chenar3, *, >
+
+//
+
+sdacb_2, :
+intoarcere_2, :, <
+
+sdacb_2, a
+intoarcere_2, a, <
+
+sdacb_2, b
+intoarcere_2, b, <
+
+sdacb_2, c
+intoarcere_2, c, <
+
+sdacb_2, d
+intoarcere_2, d, <
+
+sdacb_2, *
+chenar3, *, >
+
+//
+
+sdbac_2, :
+intoarcere_2, :, <
+
+sdbac_2, a
+intoarcere_2, a, <
+
+sdbac_2, b
+intoarcere_2, b, <
+
+sdbac_2, c
+intoarcere_2, c, <
+
+sdbac_2, d
+intoarcere_2, d, <
+
+sdbac_2, *
+chenar3, *, >
+
+//
+
+sdbca_2, :
+intoarcere_2, :, <
+
+sdbca_2, a
+intoarcere_2, a, <
+
+sdbca_2, b
+intoarcere_2, b, <
+
+sdbca_2, c
+intoarcere_2, c, <
+
+sdbca_2, d
+intoarcere_2, d, <
+
+sdbca_2, *
+chenar3, *, >
+
+//
+sdcab_2, :
+intoarcere_2, :, <
+
+sdcab_2, a
+intoarcere_2, a, <
+
+sdcab_2, b
+intoarcere_2, b, <
+
+sdcab_2, c
+intoarcere_2, c, <
+
+sdcab_2, d
+intoarcere_2, d, <
+
+sdcab_2, *
+chenar3, *, >
+
+//
+
+sdcba_2, :
+intoarcere_2, :, <
+
+sdcba_2, a
+intoarcere_2, a, <
+
+sdcba_2, b
+intoarcere_2, b, <
+
+sdcba_2, c
+intoarcere_2, c, <
+
+sdcba_2, d
+intoarcere_2, d, <
+
+sdcba_2, *
+chenar3, *, >
+
+// nivel 1 - chenar 3
+
+chenar3, a
+sa_3, A, >
+
+chenar3, b
+sb_3, B, >
+
+chenar3, c
+sc_3, C, >
+
+chenar3, d
+sd_3, D, >
+
+// nivel 2
+
+// nivel 2
+
+sa_3, b
+sab_3, B, >
+
+sa_3, c
+sac_3, C, >
+
+sa_3, d
+sad_3, D, >
+
+//
+
+sb_3, a
+sba_3, A, >
+
+sb_3, c
+sbc_3, C, >
+
+sb_3, d
+sbd_3, D, >
+
+//
+
+sc_3, a
+sca_3, A, >
+
+sc_3, b
+scb_3, B, >
+
+sc_3, d
+scd_3, D, >
+
+//
+
+sd_3, a
+sda_3, A, >
+
+sd_3, b
+sdb_3, B, >
+
+sd_3, c
+sdc_3, C, >
+
+// nivel 3
+
+sab_3, a
+sab_3, a, >
+
+sab_3, b
+sab_3, b, >
+
+sab_3, c
+sab_3, c, >
+
+sab_3, d
+sab_3, d, >
+
+sab_3, :
+sab_3, :, >
+
+sab_3, *
+steluta1_3, *, >
+
+//
+
+sac_3, a
+sac_3, a, >
+
+sac_3, b
+sac_3, b, >
+
+sac_3, c
+sac_3, c, >
+
+sac_3, d
+sac_3, d, >
+
+sac_3, :
+sac_3, :, >
+
+sac_3, *
+steluta2_3, *, >
+
+//
+
+sad_3, a
+sad_3, a, >
+
+sad_3, b
+sad_3, b, >
+
+sad_3, c
+sad_3, c, >
+
+sad_3, d
+sad_3, d, >
+
+sad_3, :
+sad_3, :, >
+
+sad_3, *
+steluta3_3, *, >
+
+//
+
+sba_3, a
+sba_3, a, >
+
+sba_3, b
+sba_3, b, >
+
+sba_3, c
+sba_3, c, >
+
+sba_3, d
+sba_3, d, >
+
+sba_3, :
+sba_3, :, >
+
+sba_3, *
+steluta4_3, *, >
+
+//
+
+sbc_3, a
+sbc_3, a, >
+
+sbc_3, b
+sbc_3, b, >
+
+sbc_3, c
+sbc_3, c, >
+
+sbc_3, d
+sbc_3, d, >
+
+sbc_3, :
+sbc_3, :, >
+
+sbc_3, *
+steluta5_3, *, >
+
+//
+sbd_3, a
+sbd_3, a, >
+
+sbd_3, b
+sbd_3, b, >
+
+sbd_3, c
+sbd_3, c, >
+
+sbd_3, d
+sbd_3, d, >
+
+sbd_3, :
+sbd_3, :, >
+
+sbd_3, *
+steluta6_3, *, >
+
+//
+
+sca_3, a
+sca_3, a, >
+
+sca_3, b
+sca_3, b, >
+
+sca_3, c
+sca_3, c, >
+
+sca_3, d
+sca_3, d, >
+
+sca_3, :
+sca_3, :, >
+
+sca_3, *
+steluta7_3, *, >
+
+//
+
+scb_3, a
+scb_3, a, >
+
+scb_3, b
+scb_3, b, >
+
+scb_3, c
+scb_3, c, >
+
+scb_3, d
+scb_3, d, >
+
+scb_3, :
+scb_3, :, >
+
+scb_3, *
+steluta8_3, *, >
+
+//
+scd_3, a
+scd_3, a, >
+
+scd_3, b
+scd_3, b, >
+
+scd_3, c
+scd_3, c, >
+
+scd_3, d
+scd_3, d, >
+
+scd_3, :
+scd_3, :, >
+
+scd_3, *
+steluta9_3, *, >
+
+//
+sda_3, a
+sda_3, a, >
+
+sda_3, b
+sda_3, b, >
+
+sda_3, c
+sda_3, c, >
+
+sda_3, d
+sda_3, d, >
+
+sda_3, :
+sda_3, :, >
+
+sda_3, *
+steluta10_3, *, >
+
+//
+
+sdb_3, a
+sdb_3, a, >
+
+sdb_3, b
+sdb_3, b, >
+
+sdb_3, c
+sdb_3, c, >
+
+sdb_3, d
+sdb_3, d, >
+
+sdb_3, :
+sdb_3, :, >
+
+sdb_3, *
+steluta11_3, *, >
+
+//
+
+sdc_3, a
+sdc_3, a, >
+
+sdc_3, b
+sdc_3, b, >
+
+sdc_3, c
+sdc_3, c, >
+
+sdc_3, d
+sdc_3, d, >
+
+sdc_3, :
+sdc_3, :, >
+
+sdc_3, *
+steluta12_3, *, >
+
+// nivel 4 - chenar 3
+
+steluta1_3, c
+sabc_3, C, >
+
+steluta1_3, d
+sabd_3, D, >
+
+//
+
+steluta2_3, b
+sacb_3, B, >
+
+steluta2_3, d
+sacd_3, D, >
+
+//
+
+steluta3_3, b
+sadb_3, B, >
+
+steluta3_3, c
+sadc_3, C, >
+
+//
+
+steluta4_3, c
+sbac_3, C, >
+
+steluta4_3, d
+sbad_3, D, >
+
+//
+
+steluta5_3, a
+sbca_3, A, >
+
+steluta5_3, d
+sbcd_3, D, >
+
+//
+
+
+steluta6_3, a
+sbda_3, A, >
+
+steluta6_3, c
+sbdc_3, C, >
+
+//
+
+steluta7_3, b
+scab_3, B, >
+
+steluta7_3, d
+scad_3, D, >
+
+//
+
+steluta8_3, a
+scba_3, A, >
+
+steluta8_3, d
+scbd_3, D, >
+
+//
+
+steluta9_3, a
+scda_3, A, >
+
+steluta9_3, b
+scdb_3, B, >
+
+//
+
+steluta10_3, b
+sdab_3, B, >
+
+steluta10_3, c
+sdac_3, C, >
+
+//
+
+steluta11_3, a
+sdba_3, A, >
+
+steluta11_3, c
+sdbc_3, C, >
+
+//
+
+steluta12_3, a
+sdca_3, A, >
+
+steluta12_3, b
+sdcb_3, B, >
+
+// nivel 5 - chenar 3
+
+sabc_3, d
+sabcd_3, D, >
+
+sabd_3, C
+sabdc_3, C, >
+
+//
+
+sacb_3, d
+sacbd_3, D, >
+
+sacd_3, b
+sacdb_3, B, >
+
+//
+
+sadb_3, c
+sadbc_3, C, >
+
+sadc_3, b
+sadcb_3, B, >
+
+//
+
+sbac_3, d
+sbacd_3, D, >
+
+sbad_3, c
+sbadc_3, C, >
+
+//
+
+sbca_3, d
+sbcad_3, D, >
+
+sbcd_3, a
+sbcda_3, A, >
+
+//
+
+sbda_3, c
+sbdac_3, C, >
+
+sbdc_3, a
+sbdca_3, A, >
+
+//
+
+scab_3, d
+scabd_3, D, >
+
+scad_3, b
+scadb_3, B, >
+
+//
+
+scba_3, d
+scbad_3, D, >
+
+scbd_3, a
+scbda_3, A, >
+
+//
+
+scda_3, b
+scdab_3, B, >
+
+scdb_3, a
+scdba_3, A, >
+
+//
+
+sdab_3, c
+sdabc_3, C, >
+
+sdac_3, b
+sdacb_3, B, >
+
+//
+
+sdba_3, c
+sdbac_3, C, >
+
+sdbc_3, a
+sdbca_3, A, >
+
+//
+
+sdca_3, b
+sdcab_3, B, >
+
+sdcb_3, a
+sdcba_3, A, >
+
+//
+
+// nivel 6 - chenar 3
+
+sabcd_3, :
+intoarcere_3, :, <
+
+sabcd_3, a
+intoarcere_3, a, <
+
+sabcd_3, b
+intoarcere_3, b, <
+
+sabcd_3, c
+intoarcere_3, c, <
+
+sabcd_3, d
+intoarcere_3, d, <
+
+sabcd_3, *
+intoarcere_3, d, >
+
+//
+
+sabdc_3, :
+intoarcere_3, :, <
+
+sabdc_3, a
+intoarcere_3, a, <
+
+sabdc_3, b
+intoarcere_3, b, <
+
+sabdc_3, c
+intoarcere_3, c, <
+
+sabdc_3, d
+intoarcere_3, d, <
+
+//
+
+sacbd_3, :
+intoarcere_3, :, <
+
+sacbd_3, a
+intoarcere_3, a, <
+
+sacbd_3, b
+intoarcere_3, b, <
+
+sacbd_3, c
+intoarcere_3, c, <
+
+sacbd_3, d
+intoarcere_3, d, <
+
+//
+
+sacdb_3, :
+intoarcere_3, :, <
+
+sacdb_3, a
+intoarcere_3, a, <
+
+sacdb_3, b
+intoarcere_3, b, <
+
+sacdb_3, c
+intoarcere_3, c, <
+
+sacdb_3, d
+intoarcere_3, d, <
+
+//
+
+sadbc_3, :
+intoarcere_3, :, <
+
+sadbc_3, a
+intoarcere_3, a, <
+
+sadbc_3, b
+intoarcere_3, b, <
+
+sadbc_3, c
+intoarcere_3, c, <
+
+sadbc_3, d
+intoarcere_3, d, <
+
+//
+
+sadcb_3, :
+intoarcere_3, :, <
+
+sadcb_3, a
+intoarcere_3, a, <
+
+sadcb_3, b
+intoarcere_3, b, <
+
+sadcb_3, c
+intoarcere_3, c, <
+
+sadcb_3, d
+intoarcere_3, d, <
+
+//
+
+sbacd_3, :
+intoarcere_3, :, <
+
+sbacd_3, a
+intoarcere_3, a, <
+
+sbacd_3, b
+intoarcere_3, b, <
+
+sbacd_3, c
+intoarcere_3, c, <
+
+sbacd_3, d
+intoarcere_3, d, <
+
+//
+sbadc_3, :
+intoarcere_3, :, <
+
+sbadc_3, a
+intoarcere_3, a, <
+
+sbadc_3, b
+intoarcere_3, b, <
+
+sbadc_3, c
+intoarcere_3, c, <
+
+sbadc_3, d
+intoarcere_3, d, <
+
+//
+
+sbcad_3, :
+intoarcere_3, :, <
+
+sbcad_3, a
+intoarcere_3, a, <
+
+sbcad_3, b
+intoarcere_3, b, <
+
+sbcad_3, c
+intoarcere_3, c, <
+
+sbcad_3, d
+intoarcere_3, d, <
+
+//
+
+sbcda_3, :
+intoarcere_3, :, <
+
+sbcda_3, a
+intoarcere_3, a, <
+
+sbcda_3, b
+intoarcere_3, b, <
+
+sbcda_3, c
+intoarcere_3, c, <
+
+sbcda_3, d
+intoarcere_3, d, <
+
+//
+sbdac_3, :
+intoarcere_3, :, <
+
+sbdac_3, a
+intoarcere_3, a, <
+
+sbdac_3, b
+intoarcere_3, b, <
+
+sbdac_3, c
+intoarcere_3, c, <
+
+sbdac_3, d
+intoarcere_3, d, <
+
+//
+
+sbdca_3, :
+intoarcere_3, :, <
+
+sbdca_3, a
+intoarcere_3, a, <
+
+sbdca_3, b
+intoarcere_3, b, <
+
+sbdca_3, c
+intoarcere_3, c, <
+
+sbdca_3, d
+intoarcere_3, d, <
+
+//
+
+scabd_3, :
+intoarcere_3, :, <
+
+scabd_3, a
+intoarcere_3, a, <
+
+scabd_3, b
+intoarcere_3, b, <
+
+scabd_3, c
+intoarcere_3, c, <
+
+scabd_3, d
+intoarcere_3, d, <
+
+//
+
+scadb_3, :
+intoarcere_3, :, <
+
+scadb_3, a
+intoarcere_3, a, <
+
+scadb_3, b
+intoarcere_3, b, <
+
+scadb_3, c
+intoarcere_3, c, <
+
+scadb_3, d
+intoarcere_3, d, <
+
+//
+
+scbad_3, :
+intoarcere_3, :, <
+
+scbad_3, a
+intoarcere_3, a, <
+
+scbad_3, b
+intoarcere_3, b, <
+
+scadb_3, c
+intoarcere_3, c, <
+
+scadb_3, d
+intoarcere_3, d, <
+
+//
+
+scbda_3, :
+intoarcere_3, :, <
+
+scbda_3, a
+intoarcere_3, a, <
+
+scbda_3, b
+intoarcere_3, b, <
+
+scbda_3, c
+intoarcere_3, c, <
+
+scbda_3, d
+intoarcere_3, d, <
+
+//
+
+scdab_3, :
+intoarcere_3, :, <
+
+scdab_3, a
+intoarcere_3, a, <
+
+scdab_3, b
+intoarcere_3, b, <
+
+scdab_3, c
+intoarcere_3, c, <
+
+scdab_3, d
+intoarcere_3, d, <
+
+//
+
+scdba_3, :
+intoarcere_3, :, <
+
+scdba_3, a
+intoarcere_3, a, <
+
+scdba_3, b
+intoarcere_3, b, <
+
+scdba_3, c
+intoarcere_3, c, <
+
+scdba_3, d
+intoarcere_3, d, <
+
+//
+
+sdabc_3, :
+intoarcere_3, :, <
+
+sdabc_3, a
+intoarcere_3, a, <
+
+sdabc_3, b
+intoarcere_3, b, <
+
+sdabc_3, c
+intoarcere_3, c, <
+
+sdabc_3, d
+intoarcere_3, d, <
+
+//
+
+sdacb_3, :
+intoarcere_3, :, <
+
+sdacb_3, a
+intoarcere_3, a, <
+
+sdacb_3, b
+intoarcere_3, b, <
+
+sdacb_3, c
+intoarcere_3, c, <
+
+sdacb_3, d
+intoarcere_3, d, <
+
+//
+
+sdbac_3, :
+intoarcere_3, :, <
+
+sdbac_3, a
+intoarcere_3, a, <
+
+sdbac_3, b
+intoarcere_3, b, <
+
+sdbac_3, c
+intoarcere_3, c, <
+
+sdbac_3, d
+intoarcere_3, d, <
+
+//
+
+sdbca_3, :
+intoarcere_3, :, <
+
+sdbca_3, a
+intoarcere_3, a, <
+
+sdbca_3, b
+intoarcere_3, b, <
+
+sdbca_3, c
+intoarcere_3, c, <
+
+sdbca_3, d
+intoarcere_3, d, <
+
+//
+sdcab_3, :
+intoarcere_3, :, <
+
+sdcab_3, a
+intoarcere_3, a, <
+
+sdcab_3, b
+intoarcere_3, b, <
+
+sdcab_3, c
+intoarcere_3, c, <
+
+sdcab_3, d
+intoarcere_3, d, <
+
+//
+
+sdcba_3, :
+intoarcere_3, :, <
+
+sdcba_3, a
+intoarcere_3, a, <
+
+sdcba_3, b
+intoarcere_3, b, <
+
+sdcba_3, c
+intoarcere_3, c, <
+
+sdcba_3, d
+intoarcere_3, d, <
+
+sdcba_3, *
+intoarcere_3, d, >
+
+//
+
+/// intoarcere la :
+
+intoarcere_3, :
+chenar4, :, >
+
+intoarcere_3, a
+intoarcere_3, a, <
+
+intoarcere_3, b
+intoarcere_3, b, <
+
+intoarcere_3, c
+intoarcere_3, c, <
+
+intoarcere_3, d
+intoarcere_3, d, <
+
+intoarcere_3, *
+intoarcere_3, *, <
+
+intoarcere_3, A
+intoarcere_3, A, <
+
+intoarcere_3, B
+intoarcere_3, B, <
+
+intoarcere_3, C
+intoarcere_3, C, <
+
+intoarcere_3, D
+intoarcere_3, D, <
+
+// chenar 4
+
+// nivel 1 - chenar 4
+
+chenar4, a
+sa_4, A, >
+
+chenar4, b
+sb_4, B, >
+
+chenar4, c
+sc_4, C, >
+
+chenar4, d
+sd_4, D, >
+
+// nivel 2 - chenar 4
+
+sa_4, b
+sab_4, B, >
+
+sa_4, c
+sac_4, C, >
+
+sa_4, d
+sad_4, D, >
+
+
+//
+
+sb_4, a
+sba_4, A, >
+
+sb_4, c
+sbc_4, C, >
+
+sb_4, d
+sbd_4, D, >
+
+//
+
+sc_4, a
+sca_4, A, >
+
+sc_4, b
+scb_4, B, >
+
+sc_4, d
+scd_4, D, >
+
+//
+
+sd_4, a
+sda_4, A, >
+
+sd_4, b
+sdb_4, B, >
+
+sd_4, c
+sdc_4, C, >
+
+// nivel 3 - chenar 4
+
+sab_4, a
+sab_4, a, >
+
+sab_4, b
+sab_4, b, >
+
+sab_4, c
+sab_4, c, >
+
+sab_4, d
+sab_4, d, >
+
+sab_4, A
+sab_4, A, >
+
+sab_4, B 
+sab_4, B, >
+
+sab_4, C 
+sab_4, C, >
+
+sab_4, D 
+sab_4, D, >
+
+sab_4, *
+sab_4, *, >
+
+sab_4, :
+steluta1_4, :, >
+
+//
+
+sac_4, a
+sac_4, a, >
+
+sac_4, b
+sac_4, b, >
+
+sac_4, c
+sac_4, c, >
+
+sac_4, d
+sac_4, d, >
+
+sac_4, A
+sac_4, A, >
+
+sac_4, B 
+sac_4, B, >
+
+sac_4, C 
+sac_4, C, >
+
+sac_4, D 
+sac_4, D, >
+
+sac_4, *
+sac_4, *, >
+
+sac_4, :
+steluta2_4, :, >
+
+//
+
+sad_4, a
+sad_4, a, >
+
+sad_4, b
+sad_4, b, >
+
+sad_4, c
+sad_4, c, >
+
+sad_4, d
+sad_4, d, >
+
+sad_4, A
+sad_4, A, >
+
+sad_4, B 
+sad_4, B, >
+
+sad_4, C 
+sad_4, C, >
+
+sad_4, D 
+sad_4, D, >
+
+sad_4, *
+sad_4, *, >
+
+sad_4, :
+steluta3_4, :, >
+
+//
+
+sba_4, a
+sba_4, a, >
+
+sba_4, b
+sba_4, b, >
+
+sba_4, c
+sba_4, c, >
+
+sba_4, d
+sba_4, d, >
+
+sba_4, A
+sba_4, A, >
+
+sba_4, B 
+sba_4, B, >
+
+sba_4, C 
+sba_4, C, >
+
+sba_4, D 
+sba_4, D, >
+
+sba_4, *
+sba_4, *, >
+
+sba_4, :
+steluta4_4, :, >
+
+//
+
+sbc_4, a
+sbc_4, a, >
+
+sbc_4, b
+sbc_4, b, >
+
+sbc_4, c
+sbc_4, c, >
+
+sbc_4, d
+sbc_4, d, >
+
+sbc_4, A
+sbc_4, A, >
+
+sbc_4, B 
+sbc_4, B, >
+
+sbc_4, C 
+sbc_4, C, >
+
+sbc_4, D 
+sbc_4, D, >
+
+sbc_4, *
+sbc_4, *, >
+
+sbc_4, :
+steluta5_4, :, >
+
+//
+sbd_4, a
+sbd_4, a, >
+
+sbd_4, b
+sbd_4, b, >
+
+sbd_4, c
+sbd_4, c, >
+
+sbd_4, d
+sbd_4, d, >
+
+sbd_4, A
+sbd_4, A, >
+
+sbd_4, B 
+sbd_4, B, >
+
+sbd_4, C 
+sbd_4, C, >
+
+sbd_4, D 
+sbd_4, D, >
+
+sbd_4, *
+sbd_4, *, >
+
+sbd_4, :
+steluta6_4, :, >
+
+//
+
+sca_4, a
+sca_4, a, >
+
+sca_4, b
+sca_4, b, >
+
+sca_4, c
+sca_4, c, >
+
+sca_4, d
+sca_4, d, >
+
+sca_4, A
+sca_4, A, >
+
+sca_4, B 
+sca_4, B, >
+
+sca_4, C 
+sca_4, C, >
+
+sca_4, D 
+sca_4, D, >
+
+sca_4, *
+sca_4, *, >
+
+sca_4, :
+steluta7_4, :, >
+
+//
+
+scb_4, a
+scb_4, a, >
+
+scb_4, b
+scb_4, b, >
+
+scb_4, c
+scb_4, c, >
+
+scb_4, d
+scb_4, d, >
+
+scb_4, A
+scb_4, A, >
+
+scb_4, B 
+scb_4, B, >
+
+scb_4, C 
+scb_4, C, >
+
+scb_4, D 
+scb_4, D, >
+
+scb_4, *
+scb_4, *, >
+
+scb_4, :
+steluta8_4, :, >
+
+//
+scd_4, a
+scd_4, a, >
+
+scd_4, b
+scd_4, b, >
+
+scd_4, c
+scd_4, c, >
+
+scd_4, d
+scd_4, d, >
+
+scd_4, A
+scd_4, A, >
+
+scd_4, B 
+scd_4, B, >
+
+scd_4, C 
+scd_4, C, >
+
+scd_4, D 
+scd_4, D, >
+
+scd_4, *
+scd_4, *, >
+
+scd_4, :
+steluta9_4, :, >
+
+//
+sda_4, a
+sda_4, a, >
+
+sda_4, b
+sda_4, b, >
+
+sda_4, c
+sda_4, c, >
+
+sda_4, d
+sda_4, d, >
+
+sda_4, A
+sda_4, A, >
+
+sda_4, B 
+sda_4, B, >
+
+sda_4, C 
+sda_4, C, >
+
+sda_4, D 
+sda_4, D, >
+
+sda_4, *
+sda_4, *, >
+
+sda_4, :
+steluta10_4, :, >
+
+//
+
+sdb_4, a
+sdb_4, a, >
+
+sdb_4, b
+sdb_4, b, >
+
+sdb_4, c
+sdb_4, c, >
+
+sdb_4, d
+sdb_4, d, >
+
+sdb_4, A
+sdb_4, A, >
+
+sdb_4, B 
+sdb_4, B, >
+
+sdb_4, C 
+sdb_4, C, >
+
+sdb_4, D 
+sdb_4, D, >
+
+sdb_4, *
+sdb_4, *, >
+
+sdb_4, :
+steluta11_4, :, >
+
+//
+
+sdc_4, a
+sdc_4, a, >
+
+sdc_4, b
+sdc_4, b, >
+
+sdc_4, c
+sdc_4, c, >
+
+sdc_4, d
+sdc_4, d, >
+
+sdc_4, A
+sdc_4, A, >
+
+sdc_4, B 
+sdc_4, B, >
+
+sdc_4, C 
+sdc_4, C, >
+
+sdc_4, D 
+sdc_4, D, >
+
+sdc_4, *
+sdc_4, *, >
+
+sdc_4, :
+steluta12_4, :, >
+
+// // nivel 4 - chenar 4
+
+steluta1_4, c
+sabc_4, C, >
+
+steluta1_4, d
+sabd_4, D, >
+
+//
+
+steluta2_4, b
+sacb_4, B, >
+
+steluta2_4, d
+sacd_4, D, >
+
+//
+
+steluta3_4, b
+sadb_4, B, >
+
+steluta3_4, c
+sadc_4, C, >
+
+//
+
+steluta4_4, c
+sbac_4, C, >
+
+steluta4_4, d
+sbad_4, D, >
+
+//
+
+steluta5_4, a
+sbca_4, A, >
+
+steluta5_4, d
+sbcd_4, D, >
+
+//
+
+
+steluta6_4, a
+sbda_4, A, >
+
+steluta6_4, c
+sbdc_4, C, >
+
+//
+
+steluta7_4, b
+scab_4, B, >
+
+steluta7_4, d
+scad_4, D, >
+
+//
+
+steluta8_4, a
+scba_4, A, >
+
+steluta8_4, d
+scbd_4, D, >
+
+//
+
+steluta9_4, a
+scda_4, A, >
+
+steluta9_4, b
+scdb_4, B, >
+
+//
+
+steluta10_4, b
+sdab_4, B, >
+
+steluta10_4, c
+sdac_4, C, >
+
+//
+
+steluta11_4, a
+sdba_4, A, >
+
+steluta11_4, c
+sdbc_4, C, >
+
+//
+
+steluta12_4, a
+sdca_4, A, >
+
+steluta12_4, b
+sdcb_4, B, >
+
+// nivel 5 - chenar 4
+
+sabc_4, d
+sabcd_4, D, >
+
+sabd_4, c
+sabdc_4, C, >
+
+//
+
+sacb_4, d
+sacbd_4, D, >
+
+sacd_4, b
+sacdb_4, B, >
+
+//
+
+sadb_4, c
+sadbc_4, C, >
+
+sadc_4, b
+sadcb_4, B, >
+
+//
+
+sbac_4, d
+sbacd_4, D, >
+
+sbad_4, c
+sbadc_4, C, >
+
+//
+
+sbca_4, d
+sbcad_4, D, >
+
+sbcd_4, a
+sbcda_4, A, >
+
+//
+
+sbda_4, c
+sbdac_4, C, >
+
+sbdc_4, a
+sbdca_4, A, >
+
+//
+
+scab_4, d
+scabd_4, D, >
+
+scad_4, b
+scadb_4, B, >
+
+//
+
+scba_4, d
+scbad_4, D, >
+
+scbd_4, a
+scbda_4, A, >
+
+//
+
+scda_4, b
+scdab_4, B, >
+
+scdb_4, a
+scdba_4, A, >
+
+//
+
+sdab_4, c
+sdabc_4, C, >
+
+sdac_4, b
+sdacb_4, B, >
+
+//
+
+sdba_4, c
+sdbac_4, C, >
+
+sdbc_4, a
+sdbca_4, A, >
+
+//
+
+sdca_4, b
+sdcab_4, B, >
+
+sdcb_4, a
+sdcba_4, A, >
+
+// nivel 6 - chenar 4
+
+sabcd_4, *
+Y, *, >
+
+sabdc_4, *
+Y, *, >
+
+sacbd_4, *
+Y, *, >
+
+sacdb_4, *
+Y, *, >
+
+sadbc_4, *
+Y, *, >
+
+sadcb_4, *
+Y, *, >
+
+sbacd_4, *
+Y, *, >
+
+sbadc_4, *
+Y, *, >
+
+sbcad_4, *
+Y, *, >
+
+sbcda_4, *
+Y, *, >
+
+sbdac_4, *
+Y, *, >
+
+scabd_4, *
+Y, *, >
+
+scadb_4, *
+Y, *, >
+
+scbad_4, *
+Y, *, >
+
+scbda_4, *
+Y, *, >
+
+scdab_4, *
+Y, *, >
+
+scdba_4, *
+Y, *, >
+
+sdabc_4, *
+Y, *, >
+
+sdacb_4, *
+Y, *, >
+
+sdbac_4, *
+Y, *, >
+
+sdbca_4, *
+Y, *, >
+
+sdcab_4, *
+Y, *, >
+
+sdcba_4, *
+Y, *, >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

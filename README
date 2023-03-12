@@ -1,0 +1,112 @@
+
+
+Stefan Alexia
+322CB
+
+
+-> Deoarece nu voiam sa scriu dupa/inaintea sirului am decis sa transform fiecare cifra intr-o litera (1-a, 2-b, 3-c, 4-d)
+si sa le folosesc precum niste memorii (am 'inregistrat' prima cifra citita din input => am transformat-o din litera mica 
+in litera mare, samd pentru fiecare 'inregistrare').
+
+-> Voi explica pentru toate task-urile cum am parcurs prima linie/coloana/regiune, deoarece urmatoarele trei linii/coloane/regiuni urmaresc acelasi principiu.
+
+
+//////// Task1 - linii
+	
+=> exemplu de prima linie (transformata): *db:ac*
+- caut fiecare litera in parte (in ordinea a-b-c-d), ignorand ':' si pastrandu-ma intre '*'
+- caut 'a' => gasesc 'a' => prima linie devine: *db:Ac*
+- ma intorc cu cursorul mereu la steluta din stanga
+- caut 'b' => gasesc 'b' => prima linie devine: *dB:Ac*
+- ma intorc cu cursorul la steluta din stanga
+- caut 'c' => gasesc 'c' => prima linie devine: *dB:AC*
+- ma intorc cu cursorul la steluta din stanga
+- caut 'd' => gasesc 'd' => prima linie devine: *DB:AC*
+- in acest moment, prima linie este ok deci pot sa ma deplasez la a doua, samd
+
+//////// Task2 - coloane
+
+=> exemplu input transformat: *32:14*41:23*24:31*13:42* => *cb:ad*da:bc*bd:ca*ac:db*
+- pentru prima coloana (la fel si pt restul) tin cont de fiecare '*' din input
+- prima litera dupa prima '*' poate fi 'a' sau 'b' sau 'c' sau 'd'
+- in cazul exemplului ales prima litera este 'c', iar inputul devine:
+	*Cb:ad*da:bc*bd:ca*ac:db*
+- daca prima litera este 'c', a doua inregistrata trebuie sa fie {a, b, d}
+- ma deplasez la dreapta spre cea de a doua steluta
+- prima litera mica dupa a doua steluta este 'd', deci inputul devine
+	*Cb:ad*Da:bc*bd:ca*ac:db*
+- daca am inregistrat pana acuma {c, d} urmatoare inregistrare trebuie sa fie {a, b}
+- ma deplasez la dreapta spre cea de a treia steluta
+- prima litera mica dupa cea de a treia steluta este 'b', deci inputul devine
+	*Cb:ad*Da:bc*Bd:ca*ac:db*
+- am inregistrat pana acuma {c, d, b}, deci urmatoarea litera trebuie sa fie 'a' pentru
+a nu intra in starea N
+- ma deplasez la dreapta spre cea de a patra steluta
+- caut prima litera mica
+- in cazul exemplului este 'a', deci inputul devine
+	*Cb:ad*Da:bc*Bd:ca*Ac:db*
+- prima coloana este in regula, ma deplasez la dreapta la prima steluta si reiau aceeasi pasi
+(trebuie sa tin cont acuma, ca ignor literele mari si le inregistrez pe cele mici)
+
+
+//////// Task2 - regiuni
+
+=> exemplu input transformat: *32:14*41:23*24:31*13:42* => *cb:ad*da:bc*bd:ca*ac:db*
+- principiul urmarit aici se aseamana cu cel urmarit la task-urile anterioare
+- inregistrez primele doua litere ('c' si 'd'), inputul devine
+	*CB:ad*da:bc*bd:ca*ac:db*
+- trec de a doua steluta si inregistrez urmatoarele doua litere mici, care trebuie sa
+fie diferite de ce am inregistrat mai devreme (sa fie 'd' si 'a', nu conteaza ordinea)
+- inputul devine: *CB:ad*DA:bc*bd:ca*ac:db*
+- prima regiune este in regula
+- pentru a doua ma intorc la primele ':' si procedez la fel ca inainte 
+- inputul devine: *CB:AD*DA:BC*bd:ca*ac:db*
+- pentru a treia regiune, am ca punct de referinta '*' de la mijloc si fac ca la prima regiune
+(inputul devine: *CB:AD*DA:BC*BD:ca*AC:db*)
+- pentru a patra regiune, procedez ca la a doua regiune, si am ca punct de referinta ':' (cele care
+urmeaza dupa cea de a doua '*' folosita ca punct de reper)
+- inputul devine: *CB:AD*DA:BC*BD:CA*AC:DB*
+
+
+//////// Explicatii suplimentare:
+
+- pentru a nu ma incurca la 'inregistratile' literelor, mi-am construit niste diagrame asemanatoare
+cu cele pe care le foloseam la proiectare logica.
+- in ele se poate observa exact cum am manage-uit inregistrarile si cum stiam ce voiam sa urmeze dupa fiecare
+citire
+- task1:
+	https://ibb.co/qjsHLJz
+- task2:
+	https://ibb.co/k5D32NM
+- task3:
+	https://ibb.co/svHv5hP
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
